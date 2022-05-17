@@ -1,0 +1,950 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+@import url('http://fonts.cdnfonts.com/css/space-and-astronomy');
+@import url('http://fonts.cdnfonts.com/css/planet-n');
+@import url('http://fonts.cdnfonts.com/css/insta-story');
+@import url('http://fonts.cdnfonts.com/css/insta-story-signature');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+
+/*Reseteo*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Estilo body*/
+
+body {
+    background-color: whitesmoke;
+    min-height: 100vp;
+
+}
+
+
+/*Maquetado Header*/
+
+header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "contenedor-hero"
+                         "menu-principal";
+    justify-content: center;
+
+}
+
+/*Maquetado Footer*/
+
+footer {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "container-footer redes-sociales"
+                         "container-footer redes-sociales"
+                         "container-footer redes-sociales";
+
+
+}
+
+/*Estilos banner Bienvenida*/
+
+
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Space and Astronomy', sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    word-spacing: 10px;
+    line-height: 3rem;
+    letter-spacing: 4px;
+    padding: 1rem;
+    margin-top: 0%;
+
+}
+
+h1 span {
+    position: absolute;
+    right: 0;
+    width: 0;
+    height: 9 0%;
+    background-color: whitesmoke;
+    border-left: 1px solid #000;
+    animation: maquinita 6s alternate;
+
+}
+
+/*
+@keyframes maquinita {
+    from {
+        width: 100%;
+    }
+
+    to {
+        width: 0;
+    }
+}
+*/
+
+
+
+.contenedor-hero {
+    display: flex;
+    min-width: 100%;
+    height: 10rem;
+    background-image: url(../img.html/space-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
+}
+
+
+.hero {
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+.box {
+    flex-basis: 100%;
+    align-self: center;
+
+}
+
+.contenedor-hero .hero p.propuesta {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    color: #bf930d;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 1.5px;
+    word-spacing: 5px;
+    padding-bottom: 1rem;
+    line-height: 1rem;
+
+}
+
+/*Estilos Barra de Navegador*/
+
+
+
+.menu-principal {
+    grid-area: menu-principal;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(2, 0, 36);
+    background: rgb(2, 0, 36);
+    background: rgb(2, 0, 36);
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(13, 13, 64, 1) 31%, rgba(9, 68, 116, 1) 47%, rgba(4, 99, 119, 1) 100%);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    line-height: 1.7rem;
+    padding: 7px;
+    top: 0;
+    max-width: 100%;
+
+}
+
+.menu-principal ul li {
+    list-style-type: none;
+    display: inline-block;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    word-spacing: 5px;
+    margin-left: 4px;
+
+}
+
+.menu-principal ul ul {
+    display: none;
+    position: absolute;
+
+}
+
+nav ul li a:hover {
+    background: rgb(2, 0, 36);
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(13, 13, 64, 1) 31%, rgba(9, 68, 116, 1) 47%, rgba(4, 99, 119, 1) 100%);
+    font-size: 1.3rem;
+    font-weight: bold;
+
+}
+
+.menu-principal ul li:hover>ul {
+    display: block;
+
+}
+
+.sub-menu {
+    background: rgb(2, 0, 36);
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(13, 13, 64, 1) 31%, rgba(9, 68, 116, 1) 47%, rgba(4, 99, 119, 1) 100%);
+    max-width: auto;
+    text-align: start;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4px;
+    z-index: 1;
+
+}
+
+/*Estilos Sub-titulo*/
+
+.contenedor-subtitulo {
+    grid-area: contenedor-subtitulo;
+    margin: auto;
+
+}
+
+h2 {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    word-spacing: 0.5rem;
+    background-color: whitesmoke;
+    padding: 1rem;
+    margin-top: .8rem;
+
+}
+
+/*Estilos Suscripcion a Newsletter*/
+
+.suscripcion {
+    height: 3.5rem;
+    background: rgb(2, 0, 36);
+    background: rgb(2, 0, 36);
+    background: linear-gradient(106deg, rgba(2, 0, 36, 1) 0%, rgba(13, 13, 64, 1) 31%, rgba(9, 68, 116, 1) 47%, rgba(4, 99, 119, 1) 100%);
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
+    grid-template-areas: "newsletter boton-uno";
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 0.3rem;
+
+}
+
+.newsletter {
+    grid-area: newsletter;
+    line-height: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.75rem;
+    text-align: center;
+    color: white;
+    padding: 15px 13px;
+
+}
+
+.boton-uno {
+    grid-area: boton-uno;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    text-align: center;
+    height: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 11px;
+    text-transform: uppercase;
+    background-color: #FFFF00;
+    opacity: 0.8;
+    max-width: max-content;
+    line-height: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.boton-uno :hover {
+    color: white;
+
+}
+
+/*Estilos Footer*/
+
+footer {
+    background-color: #3c4e5f;
+    position: relative;
+    position: sticky;
+
+}
+
+.container-footer {
+    grid-area: container-footer;
+    display: flex;
+    flex-wrap: wrap;
+    height: 6.5rem;
+    margin: auto;
+
+}
+
+.footer {
+    display: flex;
+    color: whitesmoke;
+    justify-content: center;
+    font-size: 0.8rem;
+    letter-spacing: 1.5px;
+    padding: 0.9rem 3rem;
+
+}
+
+.redes-sociales {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1.5px;
+    padding-right: 5rem;
+    margin-top: 0.5rem;
+
+}
+
+.titulo-redes-sociales {
+    font-size: 0.7rem;
+    text-align: center;
+    color: whitesmoke;
+
+}
+
+.instagram-icon {
+    color: white;
+    width: 2.4rem;
+    cursor: pointer;
+    float: left;
+    padding: 0;
+    margin: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+.facebook-icon {
+    color: white;
+    margin-bottom: 3px;
+    width: 1.8rem;
+    cursor: pointer;
+    float: left;
+    padding: 0;
+    margin: 0;
+
+}
+
+/*Estilos Sections*/
+
+h3 {
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    font-size: 1.4rem;
+    word-spacing: 0.4rem;
+    letter-spacing: 0.2rem;
+    color: black;
+    background-color: none;
+
+}
+
+/*Estilos Section Sobre Mi*/
+
+.contenedor-sobremi {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "parrafo-uno";
+    justify-content: center;
+    align-items: center;
+    padding: 1.3rem;
+    margin: 2rem;
+    border-radius: 1rem;
+
+}
+
+.foto-perfil {
+    display: none;
+
+}
+
+.parrafo-uno {
+    grid-area: parrafo-uno;
+    color: #1d1e20;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    text-align: justify;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    padding: 22px;
+    overflow: scroll;
+
+}
+
+.parrafo-uno::first-letter {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #515151;
+    padding-right: 0.13rem;
+
+}
+
+/*Estilos Section Artículo*/
+
+.contenedor-articulo {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "parrafo-dos";
+    justify-content: center;
+    align-items: center;
+    padding: 1.3rem;
+    margin: 2.5rem;
+    border-radius: 1rem;
+
+}
+
+.parrafo-dos {
+    grid-area: parrafo-dos;
+    color: #1d1e20;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    justify-content: center;
+    text-align: justify;
+    padding: 22px;
+
+}
+
+.parrafo-dos::first-letter {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #515151;
+    padding-right: 0.13rem;
+
+}
+
+.parrafo-cazadora-de-astros {
+    grid-area: parrafo-dos;
+    color: #1d1e20;
+    font-weight: 1.4rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    text-align: justify;
+    text-justify: distribute-all-lines;
+    justify-content: center;
+    overflow: scroll;
+    padding: 22px;
+    margin: 2.5rem;
+
+}
+
+.parrafo-cazadora-de-astros::first-letter {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #515151;
+    padding-right: 0.13rem;
+
+}
+
+/*Estilos Section Remedios Varo*/
+
+.contenedor-la-cazadora-de-astros {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "parrafo-uno";
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 1.3rem;
+    margin: 2rem;
+
+}
+
+.foto-cazadora {
+    display: none;
+
+}
+
+.parrafo-cazadora-de-astros {
+    grid-area: parrafo-uno;
+    color: #1d1e20;
+    justify-content: center;
+    font-weight: 1.4rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    text-align: justify;
+    text-justify: distribute-all-lines;
+    padding: 22px;
+    overflow: scroll;
+    margin: 2.5rem;
+
+}
+
+.remedios-varo {
+    grid-area: parrafo-uno;
+    color: #1d1e20;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    text-align: justify;
+    padding: 22px;
+    overflow: scroll;
+
+}
+
+.remedios-varo::first-letter {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #515151;
+    padding-right: 0.13rem;
+
+}
+
+/*Estilos Section Blog*/
+
+.contenedor-blog {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "parrafo-dos";
+    justify-content: center;
+    align-items: center;
+    padding: 1.3rem;
+    margin: 2rem;
+    border-radius: 1rem;
+
+}
+
+/*Estilos Section Calculo Carta Natal*/
+
+.contenedor-calculo-carta {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-areas: "pasos-calculo-carta";
+    justify-content: center;
+
+}
+
+.pasos-calculo-carta {
+    grid-area: pasos-calculo-carta;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    list-style-position: inside;
+    color: #1d1e20;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.9;
+    padding: 2rem 3.5rem;
+    border-radius: 1rem;
+    background-image: radial-gradient(#10145e 0.5px, #e5e5f7 0.5px);
+    background-size: 10px 10px;
+
+}
+
+.contenedor-video {
+    height: 70%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "video-astro";
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.video-astro {
+    grid-area: video-astro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*Estilos Section Contacto*/
+
+.form {
+    background-image: radial-gradient(#10145e 0.5px, #e5e5f7 0.5px);
+    background-size: 10px 10px;
+    max-height: 450px;
+    max-width: 400px;
+    text-align: center;
+    padding: 1rem 3rem;
+    margin: 1.2rem auto;
+    margin-bottom: 2.2rem;
+    border-radius: 10px;
+
+}
+
+.titulo-formulario {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #1d1e20;
+
+}
+
+.contenedor-formulario {
+    margin-top: 1.5rem;
+    display: grid;
+    gap: 1rem;
+
+}
+
+.form-group {
+    position: relative;
+
+}
+
+.form__input {
+    width: 100%;
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    height: 1.8rem;
+    padding: 3px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+    margin-top: 6px;    
+    transition: color 1s, padding 0.4s;
+
+}
+
+/*
+.form__input:focus {
+    background-color: lightgrey;
+    padding: 1.3rem;
+}
+
+*/
+
+label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #1d1e20;
+    cursor: pointer;
+
+}
+
+.form textarea {
+    min-height: 4rem;
+    resize: none;
+
+}
+
+
+.boton-dos {
+    grid-area: boton-uno;
+    max-width: max-content;
+    background-color: #FFFF00;
+    text-align: center;
+    height: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 13px;
+    text-transform: uppercase;
+    line-height: 1rem;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 7px;
+    margin-bottom: 7px;
+
+}
+
+.boton-dos :hover {
+    color: white;
+
+}
+
+/*Responsive dispositivo Tablet 768px para tabletas de 10 pulgadas*/
+
+@media screen and (min-width: 768px) {
+
+    h1 {
+        font-size: 2.2rem;
+        letter-spacing: 6px;
+        line-height: 3rem;
+
+    }
+
+    h2 {
+        font-size: 1.6rem;
+        padding: 0.8rem;
+
+    }
+
+    .contenedor-hero .hero span {
+        font-size: 2rem;
+        padding: 1.3rem;
+
+    }
+
+    h3 {
+        line-height: 2rem;
+        margin-top: 1rem;
+        padding: 1.2rem;
+
+    }
+
+    .contenedor-sobremi {
+        display: grid;
+        grid-template-columns: 1fr 2.2fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "foto-perfil parrafo-uno";
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 3px;
+
+    }
+
+    .foto-perfil {
+        grid-area: foto-perfil;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        align-self: center;
+        width: 60%;
+        height: auto;
+        position: relative;
+        top: 50%;
+        left: 20%;
+        border-radius: 20px;
+
+    }
+
+    .contenedor-la-cazadora-de-astros {
+        grid-template-columns: 1fr 2.2fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "foto-cazadora parrafo-cazadora-de-astros";
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 3px;
+
+    }
+
+    .foto-cazadora {
+        grid-area: foto-cazadora;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        align-self: center;
+        width: 50%;
+        height: auto;
+        position: relative;
+        left: 23%;
+
+    }
+
+}
+
+
+/*Responsive dispositivo Desktop 1200px para pantallas panoramicas*/
+
+@media screen and (min-width: 1200px) {
+    h1 {
+        font-size: 2.8rem;
+        line-height: 3.5rem;
+        word-spacing: 7px;
+        letter-spacing: 8px;
+        padding: 10px;
+
+    }
+
+    h2 {
+        font-size: 1.9rem;
+        padding: 1rem;
+
+    }
+
+    .contenedor-hero {
+        height: 12rem;
+
+    }
+
+    .contenedor-hero .hero span {
+        font-size: 2rem;
+        line-height: 1rem;
+
+    }
+
+    .contenedor-hero .hero p.propuesta {
+        font-size: 1.2rem;
+        line-height: 2.5rem;
+        letter-spacing: 4px;
+
+    }
+
+    h3 {
+        font-size: 1.6rem;
+        padding: 1.5rem;
+
+    }
+
+    .menu-principal {
+        line-height: 2.5rem;
+        word-spacing: 1.2rem;
+        padding: 8px;
+
+    }
+
+    nav ul li a {
+        font-size: 1.4rem;
+
+    }
+
+    .contenedor-sobremi {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "foto_perfil"
+                             "parrafo-uno";
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+
+    }
+
+    .foto-perfil {
+        display: block;
+        grid-area: foto-perfil;
+        width: 34%;
+        align-self: center;
+        justify-self: center;
+        margin-left: 5.5rem;
+
+    }
+
+    .parrafo-uno {
+        font-size: 1rem;
+        line-height: 1.4rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        overflow: hidden;
+
+    }
+
+    .parrafo-uno::first-letter {
+        font-size: 1.55rem;
+
+    }
+
+    .parrafo-dos {
+        font-size: 1rem;
+        line-height: 1.4rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+
+    }
+
+    .parrafo-dos::first-letter {
+        font-size: 1.55rem;
+
+    }
+
+    .newsletter {
+        font-size: 0.9rem;
+        text-align: center;
+        line-height: 1.2rem;
+        padding: 15px 0px;
+
+    }
+
+    .footer {
+        justify-content: end;
+
+    }
+
+    .boton-uno {
+        position: relative;
+        width: auto;
+        height: auto;
+        font-size: 13px;
+        text-align: center;
+        margin-top: 0.3rem;
+        padding: 0.6rem;
+
+    }
+
+    .contenedor-la-cazadora-de-astros {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "foto_cazadora"
+                             "parrafo-cazadora-de-astros";
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+
+    }
+
+    .foto-cazadora {
+        grid-area: foto-cazadora;
+        display: block;
+        width: 54%;
+        align-self: center;
+        justify-self: center;
+
+    }
+
+    .remedios-varo {
+        grid-area: parrafo-cazadora-de-astros;
+        font-size: 1rem;
+        line-height: 1.4rem;
+        margin-right: 1.1rem;
+        margin-left: 1.1rem;
+        margin-bottom: 1rem;
+        overflow: hidden;
+
+    }
+
+    .remedios-varo::first-letter {
+        font-size: 1.55rem;
+
+    }
+
+    .pasos-calculo-carta {
+        font-size: 17px;
+
+    }
+
+    .contenedor-blog {
+        overflow: hidden;
+
+    }
+}
