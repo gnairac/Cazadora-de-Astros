@@ -57,10 +57,10 @@ h1 {
     font-size: 2rem;
     text-transform: uppercase;
     word-spacing: 10px;
-    line-height: 3rem;
+    line-height: 2.7rem;
     letter-spacing: 4px;
-    padding: 1rem;
-    margin-top: 0%;
+    padding: 0.9rem;
+    margin-top: 1.2rem;
 
 }
 
@@ -93,10 +93,12 @@ h1 span {
     display: flex;
     min-width: 100%;
     height: 10rem;
+    position: relative;
     background-image: url(../img.html/space-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
+    filter: brightness(1.2);
 
 }
 
@@ -128,8 +130,8 @@ h1 span {
     font-size: 1.1rem;
     letter-spacing: 1.5px;
     word-spacing: 5px;
-    padding-bottom: 1rem;
-    line-height: 1rem;
+    padding-bottom: 2rem;
+    line-height: 1.5rem;
 
 }
 
@@ -228,7 +230,7 @@ h2 {
 /*Estilos Suscripcion a Newsletter*/
 
 .suscripcion {
-    height: 3.5rem;
+    height: 4.6rem;
     background: rgb(2, 0, 36);
     background: rgb(2, 0, 36);
     background: linear-gradient(106deg, rgba(2, 0, 36, 1) 0%, rgba(13, 13, 64, 1) 31%, rgba(9, 68, 116, 1) 47%, rgba(4, 99, 119, 1) 100%);
@@ -268,10 +270,11 @@ h2 {
     opacity: 0.8;
     max-width: max-content;
     line-height: 1rem;
-    padding: 10px;
+    padding: 5px;
     border-radius: 5px;
     border: none;
     cursor: pointer;
+    
 
 }
 
@@ -291,9 +294,8 @@ footer {
 
 .container-footer {
     grid-area: container-footer;
-    display: flex;
     flex-wrap: wrap;
-    height: 6.5rem;
+    height: auto;
     margin: auto;
 
 }
@@ -304,7 +306,7 @@ footer {
     justify-content: center;
     font-size: 0.8rem;
     letter-spacing: 1.5px;
-    padding: 0.9rem 3rem;
+    padding: 0.6rem 3rem;
 
 }
 
@@ -317,7 +319,6 @@ footer {
     font-family: 'Roboto', sans-serif;
     font-size: 0.8rem;
     letter-spacing: 1.5px;
-    padding-right: 5rem;
     margin-top: 0.5rem;
 
 }
@@ -407,7 +408,17 @@ h3 {
 
 }
 
-/*Estilos Section Artículo*/
+/*Estilos Section Artículo, en el parrafo de articulo puse select none para que no se pueda copiar el contenido*/
+
+.jupiter {     
+    display: none;  
+   
+}
+
+.neptuno {     
+    display: none;  
+    
+}
 
 .contenedor-articulo {
     background-color: white;
@@ -432,6 +443,8 @@ h3 {
     justify-content: center;
     text-align: justify;
     padding: 22px;
+    user-select: none;
+
 
 }
 
@@ -527,7 +540,7 @@ h3 {
 
 /*Estilos Section Blog*/
 
-.contenedor-blog {
+section.contenedor-blog {
     background-color: white;
     display: grid;
     grid-template-columns: 1fr;
@@ -688,6 +701,102 @@ label {
 
 }
 
+/*Responsive dispositivo Tablet 480px ps*/
+
+@media screen and (min-width: 480px) {
+    h1 {
+        line-height: 3rem;
+        padding: 1rem;
+        margin-top: 0%;
+
+    }
+
+    .suscripcion {
+        height: 3.5rem;
+    }
+
+    .boton-uno {
+        padding: 10px;
+
+    }
+
+
+    .footer {
+        padding: 0.9rem 3rem;
+    }
+
+    .contenedor-hero .hero p.propuesta {
+        line-height: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .container-footer {
+        display: flex;
+        height: 6.5rem;
+
+    }
+
+    .redes-sociales {
+    padding-right: 5rem;
+
+     }
+
+    section.contenedor-conjuncion {
+    height: 40%;
+    padding: 3rem; 
+           
+     }
+   
+   .box-conjuncion {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas: "jupiter neptuno"
+                           "jupiter neptuno";
+      justify-items: center;              
+       
+    }
+  
+      
+   .planeta-jupiter {       
+       display: flex;
+       grid-area: jupiter;
+       justify-content: right;
+       animation: conjuncion 2s alternate infinite;    
+   
+    }
+   
+   .planeta-neptuno {
+       display: flex;
+       grid-area: neptuno;
+       justify-content: center;  
+   
+    }
+   
+   .jupiter {  
+        display: block;   
+        width: 70%;          
+      
+    }
+   
+   .neptuno {     
+        display: block;
+        width: 85%;       
+       
+    }
+  
+   @keyframes conjuncion {
+       0% {
+          transform: translate(0);
+    }
+      
+      100% {
+      transform: translate(100px);
+    }
+  
+     } 
+
+}
+
 /*Responsive dispositivo Tablet 768px para tabletas de 10 pulgadas*/
 
 @media screen and (min-width: 768px) {
@@ -741,7 +850,7 @@ label {
         position: relative;
         top: 50%;
         left: 20%;
-        border-radius: 20px;
+        border-radius: 50%;
 
     }
 
@@ -769,8 +878,23 @@ label {
 
     }
 
+    section.contenedor-conjuncion {
+        height: 30%;
+                      
+    }
+
+    .jupiter {       
+        width: 50%;          
+          
+    }
+       
+    .neptuno {     
+         width: 72%;       
+           
+    }    
 }
 
+    
 
 /*Responsive dispositivo Desktop 1200px para pantallas panoramicas*/
 
@@ -947,4 +1071,118 @@ label {
         overflow: hidden;
 
     }
+
+    section.contenedor-conjuncion {
+        height: 380px;
+                      
+    }
+
+    .jupiter {       
+        width: 55%;          
+          
+    }
+       
+    .neptuno {     
+         width: 75%; 
+
+    }
+
+}
+
+
+/*Responsive dispositivo Desktop 1350px*/
+
+@media screen and (min-width: 1350px) 
+
+{
+
+    section.contenedor-conjuncion {
+        height: 450px;
+                      
+    }
+
+    .box-conjuncion {
+        justify-items: left;
+    }
+
+    .jupiter {       
+        width: 68%;        
+        
+    }
+       
+    .neptuno {     
+         width: 80%;         
+
+    }
+
+}
+
+/*Responsive dispositivo Desktop 1450px*/
+
+@media screen and (min-width: 1450px) 
+
+{
+
+    section.contenedor-conjuncion {
+        height: 480px;
+                      
+    }
+
+    .jupiter {       
+        width: 70%;        
+        
+    }
+       
+    .neptuno {     
+         width: 80%;         
+
+    }
+
+}
+
+/*Responsive dispositivo Desktop 1500px*/
+
+@media screen and (min-width: 1500px) 
+
+{
+
+    section.contenedor-conjuncion {
+        height: 510px;
+        padding-left: 12rem; 
+       
+    }
+
+    .jupiter {       
+        width: 75%;              
+        
+    }
+       
+    .neptuno {     
+         width: 85%;         
+
+    }
+
+}
+
+/*Responsive dispositivo Desktop 1600px*/
+
+@media screen and (min-width: 1600px) 
+
+{
+
+    section.contenedor-conjuncion {
+        height: 560px;        
+       
+    }
+
+    .jupiter {       
+        width: 80%;              
+        
+    }
+       
+    .neptuno {     
+         width: 88%;         
+
+    }   
+
 }
