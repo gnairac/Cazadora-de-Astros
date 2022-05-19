@@ -230,7 +230,7 @@ h2 {
 /*Estilos Suscripcion a Newsletter*/
 
 .suscripcion {
-    height: 4.6rem;
+    height: 6rem;
     background: rgb(2, 0, 36);
     background: rgb(2, 0, 36);
     background: linear-gradient(106deg, rgba(2, 0, 36, 1) 0%, rgba(13, 13, 64, 1) 31%, rgba(9, 68, 116, 1) 47%, rgba(4, 99, 119, 1) 100%);
@@ -268,7 +268,7 @@ h2 {
     text-transform: uppercase;
     background-color: #FFFF00;
     opacity: 0.8;
-    max-width: max-content;
+    width: 9rem;
     line-height: 1rem;
     padding: 5px;
     border-radius: 5px;
@@ -319,8 +319,7 @@ footer {
     font-family: 'Roboto', sans-serif;
     font-size: 0.8rem;
     letter-spacing: 1.5px;
-    margin-top: 0.5rem;
-
+    
 }
 
 .titulo-redes-sociales {
@@ -717,6 +716,7 @@ label {
 
     .boton-uno {
         padding: 10px;
+        max-width: max-content;
 
     }
 
