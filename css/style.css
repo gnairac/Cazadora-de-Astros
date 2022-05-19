@@ -699,7 +699,7 @@ label {
 
 }
 
-/*Responsive dispositivo Tablet 480px ps*/
+/*Responsive dispositivo 480px ps*/
 
 @media screen and (min-width: 480px) {
     h1 {
@@ -721,7 +721,7 @@ label {
 
 
     .footer {
-        padding:5rem;
+        padding: 0.7rem 3rem;
     }
 
     .contenedor-hero .hero p.propuesta {
