@@ -386,26 +386,30 @@ h3 {
 
 }
 
-.parrafo-uno {
+.parrafo-uno  {
     grid-area: parrafo-uno;
     color: #1d1e20;
     font-family: 'Roboto', sans-serif;
     justify-content: center;
     text-align: justify;
     font-size: 0.9rem;
-    line-height: 1.3rem;
-    padding: 22px;
-    overflow: scroll;
+    line-height: 1.5rem;
+    padding: 0.5rem;    
 
 }
 
-.parrafo-uno::first-letter {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #515151;
-    padding-right: 0.13rem;
+.parrafos-identados {
+    background-color: white;
+    color: #1d1e20;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    padding: 0.5rem;
+    
 
 }
+
 
 /*Estilos Section Artículo, en el parrafo de articulo puse select none para que no se pueda copiar el contenido*/
 
@@ -441,19 +445,12 @@ h3 {
     line-height: 1.3rem;
     justify-content: center;
     text-align: justify;
-    padding: 22px;
+    padding: 0.5rem;
     user-select: none;
 
 
 }
 
-.parrafo-dos::first-letter {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #515151;
-    padding-right: 0.13rem;
-
-}
 
 .parrafo-cazadora-de-astros {
     grid-area: parrafo-dos;
@@ -466,18 +463,11 @@ h3 {
     text-justify: distribute-all-lines;
     justify-content: center;
     overflow: scroll;
-    padding: 22px;
+    padding: 0.5rem;
     margin: 2.5rem;
 
 }
 
-.parrafo-cazadora-de-astros::first-letter {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #515151;
-    padding-right: 0.13rem;
-
-}
 
 /*Estilos Section Remedios Varo*/
 
@@ -510,7 +500,7 @@ h3 {
     line-height: 1.3rem;
     text-align: justify;
     text-justify: distribute-all-lines;
-    padding: 22px;
+    padding: 0.5rem;
     overflow: scroll;
     margin: 2.5rem;
 
@@ -524,16 +514,8 @@ h3 {
     font-size: 0.9rem;
     line-height: 1.3rem;
     text-align: justify;
-    padding: 22px;
+    padding: 0.5rem;
     overflow: scroll;
-
-}
-
-.remedios-varo::first-letter {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #515151;
-    padding-right: 0.13rem;
 
 }
 
@@ -547,7 +529,7 @@ section.contenedor-blog {
     grid-template-areas: "parrafo-dos";
     justify-content: center;
     align-items: center;
-    padding: 1.3rem;
+    padding: 0.5rem;
     margin: 2rem;
     border-radius: 1rem;
     height: 100 vh;
@@ -563,17 +545,9 @@ section.contenedor-blog {
     line-height: 1.3rem;
     justify-content: center;
     text-align: justify;
-    padding: 22px;
+    padding: 0.5rem;
     user-select: none;
 
-
-}
-
-.parrafo-blog::first-letter {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #515151;
-    padding-right: 0.13rem;
 
 }
 
