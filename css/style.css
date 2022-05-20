@@ -554,6 +554,29 @@ section.contenedor-blog {
 
 }
 
+
+.parrafo-blog {
+    grid-area: parrafo-dos;
+    color: #1d1e20;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    justify-content: center;
+    text-align: justify;
+    padding: 22px;
+    user-select: none;
+
+
+}
+
+.parrafo-blog::first-letter {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #515151;
+    padding-right: 0.13rem;
+
+}
+
 /*Estilos Section Calculo Carta Natal*/
 
 .contenedor-calculo-carta {
