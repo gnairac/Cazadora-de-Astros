@@ -386,7 +386,7 @@ h3 {
 
 }
 
-.parrafo-uno  {
+.parrafo-uno .parrafos-identados {
     grid-area: parrafo-uno;
     color: #1d1e20;
     font-family: 'Roboto', sans-serif;
@@ -437,7 +437,7 @@ h3 {
 
 }
 
-.parrafo-dos {
+.parrafo-dos .parrafos-identados {
     grid-area: parrafo-dos;
     color: #1d1e20;
     font-family: 'Roboto', sans-serif;
@@ -452,7 +452,7 @@ h3 {
 }
 
 
-.parrafo-cazadora-de-astros {
+.parrafo-cazadora-de-astros .parrafos-identados {
     grid-area: parrafo-dos;
     color: #1d1e20;
     font-weight: 1.4rem;
@@ -490,7 +490,7 @@ h3 {
 
 }
 
-.parrafo-cazadora-de-astros {
+.parrafo-cazadora-de-astros .parrafos-identados {
     grid-area: parrafo-uno;
     color: #1d1e20;
     justify-content: center;
@@ -506,7 +506,7 @@ h3 {
 
 }
 
-.remedios-varo {
+.remedios-varo .parrafos-identados {
     grid-area: parrafo-uno;
     color: #1d1e20;
     justify-content: center;
@@ -537,7 +537,7 @@ section.contenedor-blog {
 }
 
 
-.parrafo-blog {
+.parrafo-blog .parrafos-identados {
     grid-area: parrafo-dos;
     color: #1d1e20;
     font-family: 'Roboto', sans-serif;
