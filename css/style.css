@@ -339,7 +339,7 @@ footer {
     float: left;
     padding: 0;
     margin: 0;
-    margin-top: 0px;
+    margin-top: -1rem;
     margin-bottom: 0px;
 
 }
@@ -745,10 +745,6 @@ label {
     }
 
 
-    .footer {
-        padding: 0.7rem 3rem;
-    }
-
     .contenedor-hero .hero p.propuesta {
         line-height: 1rem;
         padding-bottom: 1rem;
@@ -758,6 +754,10 @@ label {
         display: flex;
         height: 6.5rem;
 
+    }
+
+    p.titulo-redes-sociales {
+        margin-top: 0.4rem;
     }
 
     .redes-sociales {
