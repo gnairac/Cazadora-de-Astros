@@ -134,76 +134,79 @@ h1 span {
 
 }
 
-/*Estilos Barra de Navegador*/
+/*Estilos Barra de Navegador boostrap*/
 
 
 
-.menu-principal {
-    grid-area: menu-principal;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background: rgb(2, 0, 36);
-    background: rgb(2, 0, 36);
+.nav-background {
     background: rgb(2, 0, 36);
     background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(13, 13, 64, 1) 31%, rgba(9, 68, 116, 1) 47%, rgba(4, 99, 119, 1) 100%);
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    line-height: 1.7rem;
-    padding: 7px;
-    top: 0;
-    max-width: 100%;
-
+    opacity: 0.9;
+    
 }
 
-.menu-principal ul li {
-    list-style-type: none;
-    display: inline-block;
 
-}
-
-nav ul li a {
-    text-decoration: none;
-    list-style-type: none;
-    color: white;
+.nav-titulos { 
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
-    font-weight: bolder;
-    word-spacing: 5px;
-    margin-left: 4px;
+    font-weight: bolder;    
+      
 
 }
 
-.menu-principal ul ul {
-    display: none;
-    position: absolute;
-
+.navbar ul li a{
+    text-decoration: none;
+    color: white !important
+    
 }
+
+
+
 
 nav ul li a:hover {
-    background: rgb(2, 0, 36);
-    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(13, 13, 64, 1) 31%, rgba(9, 68, 116, 1) 47%, rgba(4, 99, 119, 1) 100%);
+    background: rgba(13, 13, 64, 1);
     font-size: 1.3rem;
     font-weight: bold;
 
 }
 
-.menu-principal ul li:hover>ul {
-    display: block;
 
+.nav-color {
+    color: rgba(13, 13, 64, 1);
 }
 
-.sub-menu {
-    background: rgb(2, 0, 36);
-    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(13, 13, 64, 1) 31%, rgba(9, 68, 116, 1) 47%, rgba(4, 99, 119, 1) 100%);
-    max-width: auto;
-    text-align: start;
-    color: white;
+
+.navbar-expand-md .navbar-nav .dropdown-menu {
+    position: sticky;
+    background-color: rgba(13, 13, 64, 1);
+    
+}
+
+
+.dropdown-item {
+    width: min-content;
+    font-size: medium;
+    display: initial;
+    padding: 0;
+    color: rgba(13, 13, 64, 1);  
+      
+}
+
+
+
+.dropdown-menu li a:hover {
+    background: rgba(13, 13, 64, 1);
+}
+
+.dropdown-color {
+    background: rgba(13, 13, 64, 1);
+    min-width: auto;    
     font-family: 'Roboto', sans-serif;
-    font-size: 4px;
-    z-index: 1;
+    font-size: smaller;    
 
 }
+
+
 
 /*Estilos Sub-titulo*/
 
@@ -287,10 +290,10 @@ footer {
     background-color: #3c4e5f;
     align-self: center;
     justify-self: center;
-    /*position: relative;
-    position: sticky;*/
 
 }
+
+
 
 .container-footer {
     grid-area: container-footer;
@@ -303,7 +306,7 @@ footer {
 .footer {
     display: flex;
     color: whitesmoke;
-    justify-content: center;
+    justify-content: left;
     font-size: 0.8rem;
     letter-spacing: 1.5px;
     padding: 0.7rem 3rem;
@@ -350,6 +353,29 @@ footer {
     padding: 0;
     margin: 0;
 
+}
+
+/*Estilo footer boostrap*/
+
+.footer-background {
+    background-color: #3c4e5f;
+    align-self: center;
+    justify-self: center;
+      
+ }
+
+ footer.bp {
+    color: white !important
+    
+}
+    
+
+.margin-ig {
+    margin-left: 1rem;
+}
+
+.margin-facebook {
+    margin-left: 1.2rem;
 }
 
 /*Estilos Sections*/

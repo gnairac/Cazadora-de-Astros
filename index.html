@@ -18,6 +18,9 @@
 <link href="http://fonts.cdnfonts.com/css/insta-story" rel="stylesheet">
 <link href="http://fonts.cdnfonts.com/css/insta-story-signature" rel="stylesheet">
 
+<!--link a css boostrap-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
 <!--link a css-->
 <link rel="stylesheet" href="css/style.css">
@@ -48,27 +51,45 @@
 
 
         <div>
-            <nav class="menu-principal">
+            <!--Menus boostrap-->
+        
+        <nav class="navbar navbar-expand-sm navbar-expand-md navbar-expand-lg navbar-expand-xl navbar-expand-xxl nav-background col-12">
+            
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse  " id="navbarScroll">
+                    <ul class="navbar-nav m-auto navbar-nav-scroll  nav-titulos " style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active " aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="/pages.html/blog.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Blog
+                            </a>
+                            <ul class="dropdown-menu dropdown-color" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="/pages.html/blog.html">La firma del año 2022</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                            </ul>
+                          </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/pages.html/calculodecartanatal.html">Calcula tu
+                                carta natal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/pages.html/sobremi.html">Sobre mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/pages.html/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
 
+                </div>
+            </div>
+        </nav>
 
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    </li>
-                    <li><a href="./pages.html/blog.html">Blog</a>
-                        <ul class="sub-menu">
-                            <li><a href="./pages.html/blog.html">La conjunción del año</a>
-                        </ul>
-                    </li>
-                    <li> <a href="./pages.html/calculodecartanatal.html">Calcula tu Carta natal</a>
-                    </li>
-                    <li><a href="./pages.html/sobremi.html">Sobre mi</a>
-                    </li>
-                    <li> <a href="./pages.html/contacto.html">Contacto</a>
-                    </li>
-                </ul>
-
-
-            </nav>
 
         </div>
 
@@ -109,16 +130,25 @@
             <div>
                 <p class="parrafo-uno">
                     <div class="parrafos-identados">
-                        Soy Gabriela Nairac, me dedico al Marketing y al Análisis de Datos, también soy astróloga especializada en diagnóstico temporal. Creo que la Astrología es un legado legendario de miles de años y a diferencia de muchos otros lenguajes sagrados, nos permite predecir el futuro para poder tomar mejores decisiones además de prepararnos de antemano.
-                    </div>
-                    
-                    <div class="parrafos-identados">
-                        En estos tiempos, proliferan pseudo-astrologos, “estrelleros” como se conocían en la antigüedad, que creen que el ser humano es capaz de modificar su destino tan  sólo con su voluntad.  Así, con pura ignorancia nos dicen que todo “es relativo” y que “cada uno puede elegir su realidad y suerte”. 
+                        Soy Gabriela Nairac, me dedico al Marketing y al Análisis de Datos, también soy astróloga
+                        especializada en diagnóstico temporal. Creo que la Astrología es un legado legendario de miles
+                        de años y a diferencia de muchos otros lenguajes sagrados, nos permite predecir el futuro para
+                        poder tomar mejores decisiones además de prepararnos de antemano.
                     </div>
 
                     <div class="parrafos-identados">
-                        En lo personal, desde una perspectiva empírica, reflexiono sobre las claves astrológicas para tratar de encontrar patrones que puedan ser medidos y eventualmente pronosticados. En este sentido, busco encontrar el algoritmo astrológico fusionando la tradición ancestral de la Astrología y la Ciencia de Datos, como un eterno código a descifrar.
-                    </div>                    
+                        En estos tiempos, proliferan pseudo-astrologos, “estrelleros” como se conocían en la antigüedad,
+                        que creen que el ser humano es capaz de modificar su destino tan sólo con su voluntad. Así, con
+                        pura ignorancia nos dicen que todo “es relativo” y que “cada uno puede elegir su realidad y
+                        suerte”.
+                    </div>
+
+                    <div class="parrafos-identados">
+                        En lo personal, desde una perspectiva empírica, reflexiono sobre las claves astrológicas para
+                        tratar de encontrar patrones que puedan ser medidos y eventualmente pronosticados. En este
+                        sentido, busco encontrar el algoritmo astrológico fusionando la tradición ancestral de la
+                        Astrología y la Ciencia de Datos, como un eterno código a descifrar.
+                    </div>
 
                 </p>
             </div>
@@ -140,27 +170,36 @@
                 <h3>Subamos la vara a la Astrología: no más astro-excusas</h3>
                 <p class="parrafo-dos">
                     <div class="parrafos-identados">
-                        Últimamente, prolifera contenido astrológico simplificado que atribuye motivos, causas y efectos de posiciones planetarias aisladas tanto a eventos cotidianos como de largo alcance.
+                        Últimamente, prolifera contenido astrológico simplificado que atribuye motivos, causas y efectos
+                        de posiciones planetarias aisladas tanto a eventos cotidianos como de largo alcance.
 
-                    </div>
-                   
-                    <div class="parrafos-identados">
-                        El verbo latino “considerare”, que en latín clásico significa simplemente examinar atentamente, deriva de “sidus”, sideris (estrella), procede de la lengua astrológica y significa “consultar en su conjunto la posición de los astros”.
-                    </div>
-                    
-                    <div class="parrafos-identados">
-                        Los astrólogos serios, analizan un complejo circuito dinámico tanto a nivel cuantitativo como cualitativo con variadas técnicas, para finalmente llegar a pronosticar un acontecimiento. Es la sumatoria de aspectos y la coincidencia en dichas técnicas, lo que determina su probabilidad de ocurrencia e impacto.
                     </div>
 
                     <div class="parrafos-identados">
-                        Subamos la vara del análisis para no caer en “astro-excusas” para justificar una cosa, en especial una falla, un error o una falta para demostrar que no somos responsables de nuestras decisiones.
+                        El verbo latino “considerare”, que en latín clásico significa simplemente examinar atentamente,
+                        deriva de “sidus”, sideris (estrella), procede de la lengua astrológica y significa “consultar
+                        en su conjunto la posición de los astros”.
                     </div>
-                    
-                    <div class="parrafos-identados">
-                        Les propongo que miremos juntos las estrellas para poder considerar, dimensionar, ver y relacionar en su justa proporción. 
-                    </div>                 
 
-                    
+                    <div class="parrafos-identados">
+                        Los astrólogos serios, analizan un complejo circuito dinámico tanto a nivel cuantitativo como
+                        cualitativo con variadas técnicas, para finalmente llegar a pronosticar un acontecimiento. Es la
+                        sumatoria de aspectos y la coincidencia en dichas técnicas, lo que determina su probabilidad de
+                        ocurrencia e impacto.
+                    </div>
+
+                    <div class="parrafos-identados">
+                        Subamos la vara del análisis para no caer en “astro-excusas” para justificar una cosa, en
+                        especial una falla, un error o una falta para demostrar que no somos responsables de nuestras
+                        decisiones.
+                    </div>
+
+                    <div class="parrafos-identados">
+                        Les propongo que miremos juntos las estrellas para poder considerar, dimensionar, ver y
+                        relacionar en su justa proporción.
+                    </div>
+
+
                 </p>
             </div>
         </section>
@@ -174,28 +213,32 @@
 
     </main>
 
+
+    <footer>
+
+        <div class="container-footer">
+            <div class="derechos-de-autor">
+                <p class="footer">&copy; 2022 Gabriela Nairac</p>
+            </div>
+
+            <div class="redes-sociales">
+                <p class="titulo-redes-sociales">Redes Sociales</p>
+                <a href="https://instagram.com"> <img class="instagram-icon" src="img.html/Instagramicon.png"
+                        alt="Instagram icon"></a>
+                <a href="https://facebook.com"> <img class="facebook-icon" src="img.html/Facebookicon.png"
+                        alt="facebook icon"></a>
+            </div>
+
+        </div>
+
+    </footer>
+
+<!--link a js boostrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+</script>
+
 </body>
-
-<footer>
-
-    <div class="container-footer">
-        <div class="derechos-de-autor">
-            <p class="footer">&copy; 2022 Gabriela Nairac</p>
-        </div>
-
-        <div class="redes-sociales">
-            <p class="titulo-redes-sociales">Redes Sociales</p>
-            <a href="https://instagram.com"> <img class="instagram-icon" src="img.html/Instagramicon.png"
-                    alt="Instagram icon"></a>
-            <a href="https://facebook.com"> <img class="facebook-icon" src="img.html/Facebookicon.png"
-                    alt="facebook icon"></a>
-        </div>
-
-    </div>
-
-</footer>
-
-
 
 
 </html>
