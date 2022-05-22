@@ -249,7 +249,8 @@ h2 {
     margin-top: 7px;
     margin-bottom: 7px;
     text-align: center;
-    width: max-content;
+    overflow: auto;
+    width: fit-content;
     height: max-content;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
@@ -624,7 +625,7 @@ section.contenedor-blog {
     background-image: radial-gradient(#10145e 0.5px, #e5e5f7 0.5px);
     background-size: 10px 10px;
     max-height: 28rem;
-    max-width: 28rem;
+    max-width: 32rem;
     margin-bottom: 2.2rem;
     margin-top: 2rem;   
     
@@ -642,7 +643,7 @@ section.contenedor-blog {
     }
 
     .suscripcion {
-        height: 3.5rem;
+        height: 4.5rem;
     }
 
     .boton-uno {
