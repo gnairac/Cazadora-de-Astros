@@ -41,6 +41,7 @@ footer {
     grid-template-areas: "container-footer redes-sociales"
                          "container-footer redes-sociales"
                          "container-footer redes-sociales";
+    width: 100%;
 
 
 }
@@ -351,6 +352,7 @@ footer {
     background-color: #3c4e5f;
     align-self: center;
     justify-self: center;
+    width: 100%;
       
  }
 
