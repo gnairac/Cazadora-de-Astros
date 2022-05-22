@@ -30,10 +30,11 @@
 
         </div>
 
-<!--Menus boostrap-->
-        
-        <nav class="navbar navbar-expand-sm navbar-expand-md navbar-expand-lg navbar-expand-xl navbar-expand-xxl nav-background col-12">
-            
+        <!--Menu boostrap-->
+
+        <nav
+            class="navbar navbar-expand-sm navbar-expand-md navbar-expand-lg navbar-expand-xl navbar-expand-xxl nav-background col-12">
+
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
                     aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,14 +46,15 @@
                             <a class="nav-link active " aria-current="page" href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle nav-color" href="blog.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Blog
+                            <a class="nav-link dropdown-toggle nav-color" href="blog.html" id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Blog
                             </a>
                             <ul class="dropdown-menu dropdown-color" aria-labelledby="navbarDropdown">
-                              <li><a class="dropdown-item" href="blog.html">La firma del año 2022</a></li>
-                              
+                                <li><a class="dropdown-item" href="blog.html">La firma del año 2022</a></li>
+
                             </ul>
-                          </li>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="calculodecartanatal.html">Calcula tu
                                 carta natal</a>
@@ -75,48 +77,32 @@
 
     </header>
 
-    <br>
+
 
     <main class="row">
 
+        <center>
+            <div class="container">
+                <form class="text-center border border-light p-5 form-estilo">
 
-        <form class="form col-12">
-            <p class="titulo-formulario">Ingresa tus datos</p>
+                    <p class="h4 mb-4">Ingresa tus datos</p>
+                    <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Nombre">
+                    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="Apellido">
+                    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+                    <div class="form-group">
+                        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3"
+                            placeholder="Mensaje"></textarea>
+                    </div>
 
-            <div class="contenedor-formulario">
-
-                <div class="form-group">
-
-                    <label for="Nombre">Nombre:</label>
-                    <input type="text" class="form__input" name="Nombre" placeholder="Ingresa tu nombre">
-                </div>
-
-                <div class="form-group">
-
-                    <label for="Apellido">Apellido:</label>
-                    <input type="text" class="form__input" name="Apellido" placeholder="Ingresa tu apellido">
-
-                </div>
-
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" class="form__input" name="Tu email" placeholder="xxxx@xxxxx.com">
-                </div>
-
-                <div class="form-group">
-                    <label for="comentarios">Deja tu comentario:</label>
-                    <textarea class="form__input" name="comentario"></textarea>
-
-                </div>
+                    <div>
+                        <button class="btn btn-info btn-block mt-3" type="submit">ENVIAR FORMULARIO</button>
+                    </div>
 
 
-                <div>
-                    <button class="boton-dos"> <span>Enviar formulario</span></button>
-                    </button>
-                </div>
+                </form>
+            </div>
+        </center>
 
-
-        </form>
 
     </main>
 
@@ -125,20 +111,28 @@
 
     <footer class="row">
 
-        <div class="container-footer footer-background ">
-            <div class="derechos-de-autor d-flex justify-content-end align-items-left derechos-de-autor-sm derechos-de-autor-md derechos-de-autor-lg derechos-de-autor-xl derechos-de-autor-xxl col-6">
-                <p class="footer">&copy; 2022 Gabriela Nairac</p>
+        <center>
+            <div class="container-fluid">
+                <div class="container-footer footer-background ">
+                    <div
+                        class="derechos-de-autor d-flex justify-content-end align-items-left derechos-de-autor-sm derechos-de-autor-md derechos-de-autor-lg derechos-de-autor-xl derechos-de-autor-xxl col-6">
+                        <p class="footer">&copy; 2022 Gabriela Nairac</p>
+                    </div>
+
+                    <div
+                        class="redes-sociales d-flex align-items-start redes-sociales-sm redes-sociales-md redes-sociales-lg redes-sociales-xl redes-sociales-xxl col-6">
+                        <p class="titulo-redes-sociales m.t-2 ">Redes Sociales</p>
+                        <a href="https://instagram.com"> <img class="instagram-icon instagram-position"
+                                src="../img.html/Instagramicon.png" alt="Instagram icon"></a>
+                        <a href="https://facebook.com"> <img class="facebook-icon facebook-position"
+                                src="../img.html/Facebookicon.png" alt="facebook icon"></a>
+                    </div>
+
+                </div>
             </div>
 
-            <div class="redes-sociales d-flex align-items-start redes-sociales-sm redes-sociales-md redes-sociales-lg redes-sociales-xl redes-sociales-xxl col-6">
-                <p class="titulo-redes-sociales m.t-2 ">Redes Sociales</p>
-                <a href="https://instagram.com"> <img class="instagram-icon margin-ig " src="../img.html/Instagramicon.png"
-                        alt="Instagram icon"></a>
-                <a href="https://facebook.com"> <img class="facebook-icon margin-facebook" src="../img.html/Facebookicon.png"
-                        alt="facebook icon"></a>
-            </div>
+        </center>
 
-        </div>
 
     </footer>
 
