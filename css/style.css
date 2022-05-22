@@ -297,7 +297,7 @@ footer {
     justify-content: left;
     font-size: 0.8rem;
     letter-spacing: 1.5px;
-    padding: 0.3rem 3rem;
+    padding: 0.9rem 3rem;
 
 }
 
@@ -357,7 +357,8 @@ footer {
     color: white !important
     
 }
-    
+
+/*
 .instagram-position {
     margin-left: 1.4rem;
 }
@@ -367,6 +368,7 @@ footer {
     margin-left: 1.6rem;
 }
 
+*/
 
 
 /*Estilos Sections*/
@@ -655,6 +657,8 @@ section.contenedor-blog {
         padding-bottom: 1rem;
     }
 
+
+    /*
     .container-footer {
         display: flex;
         height: 6.5rem;
@@ -670,9 +674,12 @@ section.contenedor-blog {
 
      }
 
+    */   
+
     section.contenedor-conjuncion {
     padding: 3rem; 
     height: min-content;
+    width: fit-content;
            
      }
    
@@ -1020,7 +1027,7 @@ section.contenedor-blog {
     }
 
     .jupiter {       
-        width: 68%;        
+        width: 65%;        
         
     }
        
@@ -1038,7 +1045,7 @@ section.contenedor-blog {
 {
 
     .jupiter {       
-        width: 70%;        
+        width: 65%;        
         
     }
        
@@ -1056,12 +1063,14 @@ section.contenedor-blog {
 {
 
     .jupiter {       
-        width: 80%;              
+        width: 75%; 
+        margin-left: 0;             
         
     }
        
     .neptuno {     
-         width: 85%;         
+         width: 85%; 
+              
 
     }
 
@@ -1074,7 +1083,7 @@ section.contenedor-blog {
 {
 
     .jupiter {       
-        width: 88%;              
+        width: 130%;              
         
     }
        
