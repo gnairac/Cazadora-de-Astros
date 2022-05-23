@@ -126,17 +126,15 @@ h1 span {
 
 
 .nav-background {
-    background: rgb(2, 0, 36);
-    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(13, 13, 64, 1) 31%, rgba(9, 68, 116, 1) 47%, rgba(4, 99, 119, 1) 100%);
-    opacity: 0.9;
-    
+    background: #046377;       
+       
 }
 
 
 .nav-titulos { 
     font-family: 'Roboto', sans-serif;
-    font-size: 1.2rem;
-    font-weight: bolder;    
+    font-size: 1.2rem;       
+    margin-right: 6rem; 
       
 
 }
@@ -166,7 +164,7 @@ nav ul li a:hover {
 .navbar-expand-md .navbar-nav .dropdown-menu {
     position: sticky;
     background-color: transparent;
-    
+        
 }
 
 
@@ -176,21 +174,23 @@ nav ul li a:hover {
     display: initial;
     padding: 0;
     color: transparent;  
-      
+           
 }
 
 
 
 .dropdown-menu li a:hover {
     background:transparent;
+        
 }
 
 .dropdown-color {
     background: transparent;
     min-width: auto;    
     font-family: 'Roboto', sans-serif;
-    font-size: smaller;    
-
+    font-size: smaller; 
+    border: none;
+    
 }
 
 
