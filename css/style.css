@@ -618,6 +618,8 @@ section.contenedor-blog {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 45%;
+    margin-left: 12rem;
 
 }
 
@@ -660,6 +662,12 @@ section.contenedor-blog {
         padding-bottom: 1rem;
     }
 
+
+    .video-astro {
+        width: 100%;
+        margin-left:0;
+    
+    }
 
     /*
     .container-footer {
