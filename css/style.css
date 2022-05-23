@@ -78,7 +78,7 @@ h1 span {
 .contenedor-hero {
     display: flex;
     min-width: 100%;
-    height: 10rem;
+    height: 14rem;
     position: relative;
     background-image: url(../img.html/space-background.jpg);
     background-repeat: no-repeat;
@@ -361,17 +361,6 @@ footer {
     
 }
 
-/*
-.instagram-position {
-    margin-left: 1.4rem;
-}
-
-
-.facebook-position {
-    margin-left: 1.6rem;
-}
-
-*/
 
 
 /*Estilos Sections*/
@@ -669,24 +658,7 @@ section.contenedor-blog {
     
     }
 
-    /*
-    .container-footer {
-        display: flex;
-        height: 6.5rem;
-
-    }
-
-    p.titulo-redes-sociales {
-        margin-top: 0.4rem;
-    }
-
-    .redes-sociales {
-    padding-right: 5rem;
-
-     }
-
-    */   
-
+    
     section.contenedor-conjuncion {
     padding: 3rem; 
     height: min-content;    
@@ -843,24 +815,24 @@ section.contenedor-blog {
 @media screen and (min-width: 1200px) {
     h1 {
         font-size: 2.8rem;
-        line-height: 3.5rem;
+        line-height: 6rem;
         word-spacing: 7px;
         letter-spacing: 8px;
-        padding: 10px;
+        padding: 5px;
+        
 
     }
 
     h2 {
         font-size: 1.9rem;
-        padding: 1rem;
+        
 
     }
 
     .contenedor-hero {
-        height: 12rem;
-
+        height: 15rem;
     }
-
+    
     .contenedor-hero .hero span {
         font-size: 2rem;
         line-height: 1rem;
@@ -869,7 +841,6 @@ section.contenedor-blog {
 
     .contenedor-hero .hero p.propuesta {
         font-size: 1.2rem;
-        line-height: 2.5rem;
         letter-spacing: 4px;
 
     }
@@ -1073,7 +1044,7 @@ section.contenedor-blog {
 
     .jupiter {       
         width: 52%; 
-        margin-left: 3rem;             
+        margin-left: 3rem;           
         
     }
        
