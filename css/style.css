@@ -689,8 +689,7 @@ section.contenedor-blog {
 
     section.contenedor-conjuncion {
     padding: 3rem; 
-    height: min-content;
-    width: fit-content;
+    height: min-content;    
            
      }
    
@@ -698,8 +697,7 @@ section.contenedor-blog {
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-areas: "jupiter neptuno"
-                           "jupiter neptuno";
-      justify-items: center;              
+                           "jupiter neptuno";                 
        
     }
   
@@ -1038,12 +1036,12 @@ section.contenedor-blog {
     }
 
     .jupiter {       
-        width: 65%;        
+        width: 52%;        
         
     }
        
     .neptuno {     
-         width: 80%;         
+         width: 70%;         
 
     }
 
@@ -1056,12 +1054,12 @@ section.contenedor-blog {
 {
 
     .jupiter {       
-        width: 65%;        
+        width: 55%;        
         
     }
        
     .neptuno {     
-         width: 80%;         
+         width: 70%;         
 
     }
 
@@ -1074,17 +1072,11 @@ section.contenedor-blog {
 {
 
     .jupiter {       
-        width: 75%; 
-        margin-left: 0;             
+        width: 52%; 
+        margin-left: 3rem;             
         
     }
        
-    .neptuno {     
-         width: 85%; 
-              
-
-    }
-
 }
 
 /*Responsive dispositivo Desktop 1600px*/
@@ -1093,9 +1085,9 @@ section.contenedor-blog {
 
 {
 
-    .jupiter {       
-        width: 130%;              
-        
+    .jupiter {  
+        width: 53%;                     
+        margin-left: 6rem;  
     }
        
 }
