@@ -133,7 +133,7 @@ h1 span {
 
 .nav-titulos { 
     font-family: 'Roboto', sans-serif;
-    font-size: 1.2rem;       
+    font-size: 1.2rem;         
     margin-right: 6rem; 
       
 
@@ -158,30 +158,23 @@ nav ul li a:hover {
 
 .nav-color {
     color: transparent;
+    
 }
 
 
 .navbar-expand-md .navbar-nav .dropdown-menu {
-    position: sticky;
-    background-color: transparent;
+    position: absolute;
+    background-color: hsl(190, 93%, 24%);     
+    border-radius: 4.5px;    
+    height: 3.5rem;
         
 }
-
-
-.dropdown-item {
-    width: min-content;
-    font-size: medium;
-    display: initial;
-    padding: 0;
-    color: transparent;  
-           
-}
-
 
 
 .dropdown-menu li a:hover {
-    background:transparent;
-        
+    background: #046377;    
+      
+            
 }
 
 .dropdown-color {
@@ -189,8 +182,7 @@ nav ul li a:hover {
     min-width: auto;    
     font-family: 'Roboto', sans-serif;
     font-size: smaller; 
-    border: none;
-    
+       
 }
 
 
