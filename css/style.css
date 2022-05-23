@@ -13,6 +13,7 @@
     box-sizing: border-box;
 }
 
+
 /*Estilo body*/
 
 body {
@@ -32,6 +33,7 @@ header {
 
 }
 
+
 /*Maquetado Footer*/
 
 footer {
@@ -43,12 +45,10 @@ footer {
                          "container-footer redes-sociales";
     width: 100%;
 
-
 }
 
+
 /*Estilos banner Bienvenida*/
-
-
 
 h1 {
     text-align: center;
@@ -64,6 +64,7 @@ h1 {
 
 }
 
+
 h1 span {
     position: absolute;
     right: 0;
@@ -75,9 +76,9 @@ h1 span {
 
 }
 
+
 .contenedor-hero {
-    display: flex;
-    
+    display: flex;    
     height: 14rem;
     position: relative;
     background-image: url(../img.html/space-background.jpg);
@@ -105,6 +106,7 @@ h1 span {
 
 }
 
+
 .contenedor-hero .hero p.propuesta {
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
@@ -117,13 +119,12 @@ h1 span {
     letter-spacing: 1.5px;
     word-spacing: 5px;
     padding-bottom: 2rem;
-    line-height: 1.5rem;
+    line-height: 1.7rem;
 
 }
 
+
 /*Estilos Barra de Navegador boostrap*/
-
-
 
 .nav-background {
     background: #046377;       
@@ -134,18 +135,16 @@ h1 span {
 .nav-titulos { 
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;         
-    margin-right: 6rem; 
-      
+    margin-right: 6rem;       
 
 }
+
 
 .navbar ul li a{
     text-decoration: none;
     color: white !important
     
 }
-
-
 
 
 nav ul li a:hover {
@@ -172,10 +171,10 @@ nav ul li a:hover {
 
 
 .dropdown-menu li a:hover {
-    background: #046377;    
-      
-            
+    background: #046377;   
+                 
 }
+
 
 .dropdown-color {
     background: transparent;
@@ -186,7 +185,6 @@ nav ul li a:hover {
 }
 
 
-
 /*Estilos Sub-titulo*/
 
 .contenedor-subtitulo {
@@ -194,6 +192,7 @@ nav ul li a:hover {
     margin: auto;
 
 }
+
 
 h2 {
     position: relative;
@@ -207,6 +206,7 @@ h2 {
     margin-top: .8rem;
 
 }
+
 
 /*Estilos Suscripcion a Newsletter*/
 
@@ -226,6 +226,7 @@ h2 {
 
 }
 
+
 .newsletter {
     grid-area: newsletter;
     line-height: 1rem;
@@ -236,6 +237,7 @@ h2 {
     padding: 15px 13px;
 
 }
+
 
 .boton-uno {
     grid-area: boton-uno;
@@ -254,19 +256,18 @@ h2 {
     padding: 0.6rem;
     border-radius: 5px;
     border: none;
-    cursor: pointer;
-    
+    cursor: pointer;    
 
 }
+
 
 .boton-uno :hover {
     color: white;
 
 }
 
+
 /*Estilos Footer*/
-
-
 
 footer {
     background-color: #3c4e5f;
@@ -274,7 +275,6 @@ footer {
     justify-self: center;
 
 }
-
 
 
 .container-footer {
@@ -285,6 +285,7 @@ footer {
 
 }
 
+
 .footer {
     display: flex;
     color: whitesmoke;
@@ -294,6 +295,7 @@ footer {
     padding: 0.9rem 3rem;
 
 }
+
 
 .redes-sociales {
     display: flex;
@@ -308,12 +310,14 @@ footer {
     
 }
 
+
 .titulo-redes-sociales {
     font-size: 0.7rem;
     text-align: center;
     color: whitesmoke;
 
 }
+
 
 .instagram-icon {
     color: white;
@@ -327,6 +331,7 @@ footer {
 
 }
 
+
 .facebook-icon {
     color: white;
     margin-bottom: 3px;
@@ -338,6 +343,7 @@ footer {
 
 }
 
+
 /*Estilo footer boostrap*/
 
 .footer-background {
@@ -346,13 +352,12 @@ footer {
     justify-self: center;
     width: 100%;
       
- }
+}
 
  footer.bp {
     color: white !important
     
 }
-
 
 
 /*Estilos Sections*/
@@ -367,6 +372,7 @@ h3 {
     background-color: none;
 
 }
+
 
 /*Estilos Section Sobre Mi*/
 
@@ -384,10 +390,12 @@ h3 {
 
 }
 
+
 .foto-perfil {
     display: none;
 
 }
+
 
 .parrafo-uno .parrafos-identados {
     grid-area: parrafo-uno;
@@ -401,6 +409,7 @@ h3 {
 
 }
 
+
 .parrafos-identados {
     background-color: white;
     color: #1d1e20;
@@ -410,7 +419,6 @@ h3 {
     line-height: 1.5rem;
     padding: 0.5rem;
     
-
 }
 
 
@@ -421,10 +429,12 @@ h3 {
    
 }
 
+
 .neptuno {     
     display: none;  
     
 }
+
 
 .contenedor-articulo {
     background-color: white;
@@ -440,6 +450,7 @@ h3 {
 
 }
 
+
 .parrafo-dos .parrafos-identados {
     grid-area: parrafo-dos;
     color: #1d1e20;
@@ -450,7 +461,6 @@ h3 {
     text-align: justify;
     padding: 0.5rem;
     user-select: none;
-
 
 }
 
@@ -488,10 +498,12 @@ h3 {
 
 }
 
+
 .foto-cazadora {
     display: none;
 
 }
+
 
 .parrafo-cazadora-de-astros .parrafos-identados {
     grid-area: parrafo-uno;
@@ -509,6 +521,7 @@ h3 {
 
 }
 
+
 .remedios-varo .parrafos-identados {
     grid-area: parrafo-uno;
     color: #1d1e20;
@@ -521,6 +534,7 @@ h3 {
     overflow: scroll;
 
 }
+
 
 /*Estilos Section Blog*/
 
@@ -551,8 +565,8 @@ section.contenedor-blog {
     padding: 0.5rem;
     user-select: none;
 
-
 }
+
 
 /*Estilos Section Calculo Carta Natal*/
 
@@ -563,6 +577,7 @@ section.contenedor-blog {
     justify-content: center;
 
 }
+
 
 .pasos-calculo-carta {
     grid-area: pasos-calculo-carta;
@@ -581,6 +596,7 @@ section.contenedor-blog {
 
 }
 
+
 .contenedor-video {
     height: 70%;
     display: grid;
@@ -594,6 +610,7 @@ section.contenedor-blog {
 
 }
 
+
 .video-astro {
     grid-area: video-astro;
     display: flex;
@@ -603,6 +620,7 @@ section.contenedor-blog {
     margin-left: 12rem;
 
 }
+
 
 /*Estilos Boostrap Section Contacto*/
 
@@ -619,7 +637,9 @@ section.contenedor-blog {
 
 /*Responsive dispositivo 480px ps*/
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 480px) 
+
+{
     h1 {
         line-height: 3rem;
         padding: 1rem;
@@ -637,7 +657,6 @@ section.contenedor-blog {
 
     }
 
-
     .contenedor-hero .hero p.propuesta {
         line-height: 1rem;
         padding-bottom: 1rem;
@@ -650,7 +669,6 @@ section.contenedor-blog {
     
     }
 
-    
     section.contenedor-conjuncion {
     padding: 3rem; 
     height: min-content;    
@@ -665,7 +683,6 @@ section.contenedor-blog {
        
     }
   
-      
    .planeta-jupiter {       
        display: flex;
        grid-area: jupiter;
@@ -709,7 +726,9 @@ section.contenedor-blog {
 
 /*Responsive dispositivo Tablet 768px para tabletas de 10 pulgadas*/
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) 
+
+{
 
     h1 {
         font-size: 2.2rem;
@@ -788,7 +807,6 @@ section.contenedor-blog {
 
     }
 
-    
     .jupiter {       
         width: 50%;          
           
@@ -801,28 +819,28 @@ section.contenedor-blog {
 }
 
     
-
 /*Responsive dispositivo Desktop 1200px para pantallas panoramicas*/
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) 
+
+{
     h1 {
         font-size: 2.8rem;
         line-height: 6rem;
         word-spacing: 7px;
         letter-spacing: 8px;
-        padding: 5px;
-        
+        padding: 5px;        
 
     }
 
     h2 {
-        font-size: 1.9rem;
-        
+        font-size: 1.9rem;        
 
     }
 
     .contenedor-hero {
         height: 15rem;
+
     }
     
     .contenedor-hero .hero span {
@@ -1010,6 +1028,7 @@ section.contenedor-blog {
 
 }
 
+
 /*Responsive dispositivo Desktop 1450px*/
 
 @media screen and (min-width: 1450px) 
@@ -1033,7 +1052,6 @@ section.contenedor-blog {
 @media screen and (min-width: 1500px) 
 
 {
-
     .jupiter {       
         width: 52%; 
         margin-left: 3rem;           
@@ -1042,12 +1060,12 @@ section.contenedor-blog {
        
 }
 
+
 /*Responsive dispositivo Desktop 1600px*/
 
 @media screen and (min-width: 1600px) 
 
 {
-
     .jupiter {  
         width: 53%;                     
         margin-left: 6rem;  
