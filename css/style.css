@@ -85,8 +85,8 @@ h1 span {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    filter: brightness(1.2);
-
+    filter: brightness(1.1);
+    
 }
 
 
@@ -111,6 +111,7 @@ h1 span {
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
     font-size: 2.8rem;
+    text-shadow: #000 2px 2px 1px;  
     text-transform: uppercase;
     color: #bf930d;
     text-align: center;
@@ -123,6 +124,10 @@ h1 span {
 
 }
 
+span .bajada {
+text-shadow: #000 2px 2px 1px;    
+ 
+}
 
 /*Estilos Barra de Navegador boostrap*/
 
