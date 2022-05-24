@@ -581,7 +581,7 @@ section.contenedor-blog {
     grid-area: pasos-calculo-carta;
     display: flex;
     justify-content: center;
-    max-width: 19rem;
+    max-width: 18.5rem;
     max-height: 27rem;
     list-style-position: inside;
     color: white;
