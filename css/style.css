@@ -18,7 +18,7 @@
 
 body {
     background-color: whitesmoke;
-    
+
 }
 
 
@@ -28,7 +28,7 @@ header {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-areas: "contenedor-hero"
-                         "menu-principal";
+        "menu-principal";
     justify-content: center;
 
 }
@@ -41,8 +41,8 @@ footer {
     grid-template-rows: 1fr;
     grid-template-columns: 1fr;
     grid-template-areas: "container-footer redes-sociales"
-                         "container-footer redes-sociales"
-                         "container-footer redes-sociales";
+        "container-footer redes-sociales"
+        "container-footer redes-sociales";
     width: 100%;
 
 }
@@ -78,7 +78,7 @@ h1 span {
 
 
 .contenedor-hero {
-    display: flex;    
+    display: flex;
     height: 14rem;
     position: relative;
     background-image: url(../img.html/space-background.jpg);
@@ -127,28 +127,27 @@ h1 span {
 /*Estilos Barra de Navegador boostrap*/
 
 .nav-background {
-    background: #046377;       
-       
+    background: #046377;
+
 }
 
 
-.nav-titulos { 
+.nav-titulos {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.2rem;         
-    margin-right: 6rem;       
+    font-size: 1.2rem;
+    margin-right: 6rem;
 
 }
 
 
-.navbar ul li a{
+.navbar ul li a {
     text-decoration: none;
     color: white !important
-    
 }
 
 
 nav ul li a:hover {
-    background: transparent ;
+    background: transparent;
     font-size: 1.3rem;
     font-weight: bold;
 
@@ -157,31 +156,31 @@ nav ul li a:hover {
 
 .nav-color {
     color: transparent;
-    
+
 }
 
 
 .navbar-expand-md .navbar-nav .dropdown-menu {
     position: absolute;
-    background-color: hsl(190, 93%, 24%);     
-    border-radius: 4.5px;    
+    background-color: hsl(190, 93%, 24%);
+    border-radius: 4.5px;
     height: 3.5rem;
-        
+
 }
 
 
 .dropdown-menu li a:hover {
-    background: #046377;   
-                 
+    background: #046377;
+
 }
 
 
 .dropdown-color {
     background: transparent;
-    min-width: auto;    
+    min-width: auto;
     font-family: 'Roboto', sans-serif;
-    font-size: smaller; 
-       
+    font-size: smaller;
+
 }
 
 
@@ -256,7 +255,7 @@ h2 {
     padding: 0.6rem;
     border-radius: 5px;
     border: none;
-    cursor: pointer;    
+    cursor: pointer;
 
 }
 
@@ -307,7 +306,7 @@ footer {
     font-size: 0.8rem;
     letter-spacing: 1.5px;
     margin-bottom: 0.8rem;
-    
+
 }
 
 
@@ -351,12 +350,11 @@ footer {
     align-self: center;
     justify-self: center;
     width: 100%;
-      
+
 }
 
- footer.bp {
+footer.bp {
     color: white !important
-    
 }
 
 
@@ -405,7 +403,7 @@ h3 {
     text-align: justify;
     font-size: 0.9rem;
     line-height: 1.5rem;
-    padding: 0.5rem;    
+    padding: 0.5rem;
 
 }
 
@@ -418,21 +416,21 @@ h3 {
     font-size: 0.9rem;
     line-height: 1.5rem;
     padding: 0.5rem;
-    
+
 }
 
 
 /*Estilos Section Artículo, en el parrafo de articulo puse select none para que no se pueda copiar el contenido*/
 
-.jupiter {     
-    display: none;  
-   
+.jupiter {
+    display: none;
+
 }
 
 
-.neptuno {     
-    display: none;  
-    
+.neptuno {
+    display: none;
+
 }
 
 
@@ -624,22 +622,23 @@ section.contenedor-blog {
 
 /*Estilos Boostrap Section Contacto*/
 
-.form-estilo {
-    background-image: radial-gradient(#10145e 0.5px, #e5e5f7 0.5px);
-    background-size: 10px 10px;
+.form-estilo {    
+    background-color: #81b1bb;
+    opacity: 0.92;
+    background-image: radial-gradient(#046377 0.35000000000000003px, #81b1bb 0.35000000000000003px);
+    background-size: 7px 7px;
     max-height: 28rem;
-    max-width: 32rem;
+    max-width: 31rem;
+    border-radius: 16px;
     margin-bottom: 2.2rem;
-    margin-top: 2rem;   
-    
+    margin-top: 2rem;
+
 }
 
 
 /*Responsive dispositivo 480px ps*/
 
-@media screen and (min-width: 480px) 
-
-{
+@media screen and (min-width: 480px) {
     h1 {
         line-height: 3rem;
         padding: 1rem;
@@ -665,70 +664,68 @@ section.contenedor-blog {
 
     .video-astro {
         width: 100%;
-        margin-left:0;
-    
+        margin-left: 0;
+
     }
 
     section.contenedor-conjuncion {
-    padding: 3rem; 
-    height: min-content;    
-           
-     }
-   
-   .box-conjuncion {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-areas: "jupiter neptuno"
-                           "jupiter neptuno";                 
-       
+        padding: 3rem;
+        height: min-content;
+
     }
-  
-   .planeta-jupiter {       
-       display: flex;
-       grid-area: jupiter;
-       justify-content: right;
-       animation: conjuncion 2s alternate;    
-       animation-iteration-count: 8;
-   
+
+    .box-conjuncion {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "jupiter neptuno"
+            "jupiter neptuno";
+
     }
-   
-   .planeta-neptuno {
-       display: flex;
-       grid-area: neptuno;
-       justify-content: center;  
-   
+
+    .planeta-jupiter {
+        display: flex;
+        grid-area: jupiter;
+        justify-content: right;
+        animation: conjuncion 2s alternate;
+        animation-iteration-count: 8;
+
     }
-   
-   .jupiter {  
-        display: block;   
-        width: 70%;          
-      
+
+    .planeta-neptuno {
+        display: flex;
+        grid-area: neptuno;
+        justify-content: center;
+
     }
-   
-   .neptuno {     
+
+    .jupiter {
         display: block;
-        width: 85%;       
-       
+        width: 70%;
+
     }
-  
-   @keyframes conjuncion {
-       0% {
-          transform: translate(0);
+
+    .neptuno {
+        display: block;
+        width: 85%;
+
     }
-      
-      100% {
-      transform: translate(100px);
+
+    @keyframes conjuncion {
+        0% {
+            transform: translate(0);
+        }
+
+        100% {
+            transform: translate(100px);
+        }
+
     }
-  
-     } 
 
 }
 
 /*Responsive dispositivo Tablet 768px para tabletas de 10 pulgadas*/
 
-@media screen and (min-width: 768px) 
-
-{
+@media screen and (min-width: 768px) {
 
     h1 {
         font-size: 2.2rem;
@@ -807,34 +804,32 @@ section.contenedor-blog {
 
     }
 
-    .jupiter {       
-        width: 50%;          
-          
+    .jupiter {
+        width: 50%;
+
     }
-       
-    .neptuno {     
-         width: 72%;       
-           
-    }    
+
+    .neptuno {
+        width: 72%;
+
+    }
 }
 
-    
+
 /*Responsive dispositivo Desktop 1200px para pantallas panoramicas*/
 
-@media screen and (min-width: 1200px) 
-
-{
+@media screen and (min-width: 1200px) {
     h1 {
         font-size: 2.8rem;
         line-height: 6rem;
         word-spacing: 7px;
         letter-spacing: 8px;
-        padding: 5px;        
+        padding: 5px;
 
     }
 
     h2 {
-        font-size: 1.9rem;        
+        font-size: 1.9rem;
 
     }
 
@@ -842,7 +837,7 @@ section.contenedor-blog {
         height: 15rem;
 
     }
-    
+
     .contenedor-hero .hero span {
         font-size: 2rem;
         line-height: 1rem;
@@ -878,7 +873,7 @@ section.contenedor-blog {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
         grid-template-areas: "foto_perfil"
-                             "parrafo-uno";
+            "parrafo-uno";
         overflow: hidden;
         display: flex;
         justify-content: center;
@@ -950,7 +945,7 @@ section.contenedor-blog {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
         grid-template-areas: "foto_cazadora"
-                             "parrafo-cazadora-de-astros";
+            "parrafo-cazadora-de-astros";
         overflow: hidden;
         display: flex;
         justify-content: center;
@@ -993,13 +988,13 @@ section.contenedor-blog {
 
     }
 
-    .jupiter {       
-        width: 55%;          
-          
+    .jupiter {
+        width: 55%;
+
     }
-       
-    .neptuno {     
-         width: 75%; 
+
+    .neptuno {
+        width: 75%;
 
     }
 
@@ -1008,21 +1003,19 @@ section.contenedor-blog {
 
 /*Responsive dispositivo Desktop 1350px*/
 
-@media screen and (min-width: 1350px) 
+@media screen and (min-width: 1350px) {
 
-{
-   
     .box-conjuncion {
         justify-items: left;
     }
 
-    .jupiter {       
-        width: 52%;        
-        
+    .jupiter {
+        width: 52%;
+
     }
-       
-    .neptuno {     
-         width: 70%;         
+
+    .neptuno {
+        width: 70%;
 
     }
 
@@ -1031,17 +1024,15 @@ section.contenedor-blog {
 
 /*Responsive dispositivo Desktop 1450px*/
 
-@media screen and (min-width: 1450px) 
+@media screen and (min-width: 1450px) {
 
-{
+    .jupiter {
+        width: 55%;
 
-    .jupiter {       
-        width: 55%;        
-        
     }
-       
-    .neptuno {     
-         width: 70%;         
+
+    .neptuno {
+        width: 70%;
 
     }
 
@@ -1049,26 +1040,22 @@ section.contenedor-blog {
 
 /*Responsive dispositivo Desktop 1500px*/
 
-@media screen and (min-width: 1500px) 
+@media screen and (min-width: 1500px) {
+    .jupiter {
+        width: 52%;
+        margin-left: 3rem;
 
-{
-    .jupiter {       
-        width: 52%; 
-        margin-left: 3rem;           
-        
     }
-       
+
 }
 
 
 /*Responsive dispositivo Desktop 1600px*/
 
-@media screen and (min-width: 1600px) 
-
-{
-    .jupiter {  
-        width: 53%;                     
-        margin-left: 6rem;  
+@media screen and (min-width: 1600px) {
+    .jupiter {
+        width: 53%;
+        margin-left: 6rem;
     }
-       
+
 }
