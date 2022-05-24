@@ -573,7 +573,7 @@ section.contenedor-blog {
     grid-template-rows: 1fr;
     grid-template-areas: "pasos-calculo-carta";
     justify-content: center;
-    
+
 }
 
 
@@ -589,10 +589,8 @@ section.contenedor-blog {
     line-height: 2rem;
     padding: 3rem;
     border-radius: 1rem;
-    background-image: url(../img.html/space-collage-with-young-woman.jpg);
+    background-image: url(../img.html/Estrellas\ via\ lactea.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
     opacity: 0.8;
     
 }
@@ -625,18 +623,16 @@ section.contenedor-blog {
 
 /*Estilos Boostrap Section Contacto*/
 
-.form-estilo {  
-    background-image: url(../img.html/space-collage-with-young-woman.jpg);
+.form-estilo {
+    background-image: url(../img.html/Estrellas\ via\ lactea.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    opacity: 0.9;     
+    opacity: 0.8;
     max-height: 29rem;
     max-width: 30rem;
-    border-radius: 16px;
+    border-radius: 15px;
     margin-bottom: 2.2rem;
     margin-top: 2rem;
-    
+
 }
 
 
