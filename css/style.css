@@ -582,6 +582,7 @@ section.contenedor-blog {
     display: flex;
     justify-content: center;
     width: 100%;
+    max-height: 27rem;
     list-style-position: inside;
     color: white;
     font-size: 16px;
@@ -627,7 +628,7 @@ section.contenedor-blog {
     background-image: url(../img.html/Estrellas\ via\ lactea.jpg);
     background-repeat: no-repeat;
     opacity: 0.8;
-    max-height: 29rem;
+    max-height: 32rem;
     max-width: 30rem;
     border-radius: 15px;
     margin-bottom: 2.2rem;
@@ -661,6 +662,9 @@ section.contenedor-blog {
         padding-bottom: 1rem;
     }
 
+    .pasos-calculo-carta {
+        max-height: 20rem;
+    }
 
     .video-astro {
         width: 100%;
