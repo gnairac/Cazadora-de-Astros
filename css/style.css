@@ -573,7 +573,7 @@ section.contenedor-blog {
     grid-template-rows: 1fr;
     grid-template-areas: "pasos-calculo-carta";
     justify-content: center;
-
+    
 }
 
 
@@ -583,20 +583,23 @@ section.contenedor-blog {
     justify-content: center;
     width: 100%;
     list-style-position: inside;
-    color: #1d1e20;
-    font-size: 15px;
+    color: white;
+    font-size: 16px;
     font-family: 'Roboto', sans-serif;
-    line-height: 1.9;
-    padding: 2rem 3.5rem;
+    line-height: 2rem;
+    padding: 3rem;
     border-radius: 1rem;
-    background-image: radial-gradient(#10145e 0.5px, #e5e5f7 0.5px);
-    background-size: 10px 10px;
-
+    background-image: url(../img.html/space-collage-with-young-woman.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    opacity: 0.8;
+    
 }
 
 
 .contenedor-video {
-    height: 70%;
+    height: 100%;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -622,17 +625,18 @@ section.contenedor-blog {
 
 /*Estilos Boostrap Section Contacto*/
 
-.form-estilo {    
-    background-color: #81b1bb;
-    opacity: 0.92;
-    background-image: radial-gradient(#046377 0.35000000000000003px, #81b1bb 0.35000000000000003px);
-    background-size: 7px 7px;
-    max-height: 28rem;
-    max-width: 32rem;
+.form-estilo {  
+    background-image: url(../img.html/space-collage-with-young-woman.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;     
+    max-height: 29rem;
+    max-width: 30rem;
     border-radius: 16px;
     margin-bottom: 2.2rem;
     margin-top: 2rem;
-
+    
 }
 
 
