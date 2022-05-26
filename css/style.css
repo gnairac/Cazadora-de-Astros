@@ -111,7 +111,7 @@ h1 span {
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
     font-size: 2.8rem;
-    text-shadow: #000 2px 2px 1px;  
+    text-shadow: #000 2px 2px 2px;  
     text-transform: uppercase;
     color: #bf930d;
     text-align: center;
@@ -125,7 +125,7 @@ h1 span {
 }
 
 span .bajada {
-text-shadow: #000 2px 2px 1px;    
+text-shadow: #000 2px 2px 2px;    
  
 }
 
@@ -133,6 +133,10 @@ text-shadow: #000 2px 2px 1px;
 
 .nav-background {
     background: #046377;
+    height: 12rem;
+    margin-top: 0;
+    padding-top: 10px;
+
 
 }
 
@@ -208,6 +212,7 @@ h2 {
     background-color: whitesmoke;
     padding: 1rem;
     margin-top: .8rem;
+    line-height: 2rem;
 
 }
 
@@ -215,7 +220,7 @@ h2 {
 /*Estilos Suscripcion a Newsletter*/
 
 .suscripcion {
-    height: 6rem;
+    height: 9rem;
     background: rgb(2, 0, 36);
     background: rgb(2, 0, 36);
     background: linear-gradient(106deg, rgba(2, 0, 36, 1) 0%, rgba(13, 13, 64, 1) 31%, rgba(9, 68, 116, 1) 47%, rgba(4, 99, 119, 1) 100%);
@@ -372,7 +377,7 @@ h3 {
     word-spacing: 0.4rem;
     letter-spacing: 0.2rem;
     color: black;
-    background-color: none;
+    line-height: 2rem;
 
 }
 
@@ -644,7 +649,13 @@ section.contenedor-blog {
 
 /*Responsive dispositivo 480px ps*/
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 480px) 
+{
+    .nav-background {
+        height: 10rem;        
+          
+    }
+
     h1 {
         line-height: 3rem;
         padding: 1rem;
@@ -692,21 +703,17 @@ section.contenedor-blog {
 
     }
 
+    
     .planeta-jupiter {
         display: flex;
         grid-area: jupiter;
         justify-content: right;
-        animation: conjuncion 2s alternate;
+        animation: conjuncion 5s alternate;
         animation-iteration-count: 8;
 
     }
 
-    .planeta-neptuno {
-        display: flex;
-        grid-area: neptuno;
-        justify-content: center;
-
-    }
+   
 
     .jupiter {
         display: block;
@@ -735,7 +742,13 @@ section.contenedor-blog {
 
 /*Responsive dispositivo Tablet 768px para tabletas de 10 pulgadas*/
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) 
+{
+
+    .nav-background {
+        height: 8rem;
+          
+    }
 
     h1 {
         font-size: 2.2rem;
