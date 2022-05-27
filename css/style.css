@@ -132,11 +132,12 @@ text-shadow: #000 2px 2px 2px;
 /*Estilos Barra de Navegador boostrap*/
 
 .nav-background {
-    background: #046377;
+    background: #153f59;
     height: 19rem;
     margin-top: 0;
     padding-top: 10px;
-
+  
+   
 
 }
 
