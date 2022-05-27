@@ -135,10 +135,8 @@ text-shadow: #000 2px 2px 2px;
     background: #153f59;
     height: 19rem;
     margin-top: 0;
-    padding-top: 10px;
-  
+    padding-top: 10px; 
    
-
 }
 
 
@@ -156,8 +154,8 @@ text-shadow: #000 2px 2px 2px;
 }
 
 
-nav ul li a:hover {
-    background: transparent;
+nav ul li a:hover {    
+    background-color: #153f59;
     font-size: 1.3rem;
     font-weight: bold;
 
@@ -165,7 +163,7 @@ nav ul li a:hover {
 
 
 .nav-color {
-    color: transparent;
+    color: #153f59;
 
 }
 
@@ -175,7 +173,8 @@ nav ul li a:hover {
 
 .navbar-expand-md .navbar-nav .dropdown-menu {
     position: absolute;
-    background-color: hsl(190, 93%, 24%);
+    background-color: #153f59;
+    color: #153f59;
     border-radius: 4.5px;
     height: 3.5rem;
 
@@ -184,13 +183,17 @@ nav ul li a:hover {
 
 
 .dropdown-color {
-    background: transparent;
+   
     min-width: auto;
     font-family: 'Roboto', sans-serif;
     font-size: smaller;
 
 }
 
+a.drowpdown-menu-dropdown-color-show {
+    color: transparent;
+
+}
 
 /*Estilos Sub-titulo*/
 
@@ -394,6 +397,7 @@ h3 {
     align-items: center;
     padding: 1.3rem;
     margin: 2rem;
+    margin-top: 1.2rem;
     border-radius: 1rem;
 
 }
@@ -454,6 +458,7 @@ h3 {
     align-items: center;
     padding: 1.3rem;
     margin: 2.5rem;
+    margin-top: 1.2rem;
     border-radius: 1rem;
 
 }
@@ -486,7 +491,7 @@ h3 {
     overflow: scroll;
     padding: 0.5rem;
     margin: 2.5rem;
-
+    
 }
 
 
@@ -556,6 +561,7 @@ section.contenedor-blog {
     align-items: center;
     padding: 0.5rem;
     margin: 2rem;
+    margin-top: 1.2rem;
     border-radius: 1rem;
     height: 100 vh;
 
@@ -795,6 +801,7 @@ section.contenedor-blog {
         align-items: center;
         flex-direction: column;
         gap: 3px;
+        margin-top: 2rem;
 
     }
 
@@ -821,6 +828,7 @@ section.contenedor-blog {
         align-items: center;
         flex-direction: column;
         gap: 3px;
+        margin-top: 2rem;
 
     }
 
@@ -836,6 +844,11 @@ section.contenedor-blog {
         left: 23%;
 
     }
+
+    section.contenedor-blog {
+        margin-top: 2rem;
+    }
+
 
     .jupiter {
         width: 50%;
