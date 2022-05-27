@@ -133,7 +133,7 @@ text-shadow: #000 2px 2px 2px;
 
 .nav-background {
     background: #046377;
-    height: 12rem;
+    height: 19rem;
     margin-top: 0;
     padding-top: 10px;
 
@@ -168,6 +168,9 @@ nav ul li a:hover {
 
 }
 
+.collapse navbar-collapse {
+    height: max-content;
+}
 
 .navbar-expand-md .navbar-nav .dropdown-menu {
     position: absolute;
@@ -177,11 +180,6 @@ nav ul li a:hover {
 
 }
 
-
-.dropdown-menu li a:hover {
-    background: #046377;
-
-}
 
 
 .dropdown-color {
@@ -600,10 +598,14 @@ section.contenedor-blog {
     font-family: 'Roboto', sans-serif;
     line-height: 2rem;
     padding: 3rem;
+    padding-left: 1rem;
     border-radius: 1rem;
     background-image: url(../img.html/Estrellas\ via\ lactea.jpg);
-    background-repeat: no-repeat;
-    opacity: 0.8;
+    background-repeat: no-repeat;    
+    opacity: 0.90;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    
     
 }
 
@@ -638,12 +640,12 @@ section.contenedor-blog {
 .form-estilo {
     background-image: url(../img.html/Estrellas\ via\ lactea.jpg);
     background-repeat: no-repeat;
-    opacity: 0.8;
+    opacity: 0.85;
     max-height: 32rem;
     max-width: 30rem;
     border-radius: 15px;
-    margin-bottom: 2.2rem;
-    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
 
 }
 
@@ -653,7 +655,7 @@ section.contenedor-blog {
 @media screen and (min-width: 480px) 
 {
     .nav-background {
-        height: 10rem;        
+        height: 18rem;        
           
     }
 
@@ -741,15 +743,21 @@ section.contenedor-blog {
 
 }
 
+/*Responsive dispositivo 576px ps*/
+
+@media screen and (min-width: 576px) 
+{
+    .nav-background {
+        height: 6rem;        
+          
+    }
+}   
+
+
 /*Responsive dispositivo Tablet 768px para tabletas de 10 pulgadas*/
 
 @media screen and (min-width: 768px) 
 {
-
-    .nav-background {
-        height: 8rem;
-          
-    }
 
     h1 {
         font-size: 2.2rem;
