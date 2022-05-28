@@ -133,9 +133,9 @@ text-shadow: #000 2px 2px 2px;
 
 .nav-background {
     background: #153f59;
-    height: 19rem;
     margin-top: 0;
-    padding-top: 10px; 
+    padding-top: 2rem;
+    padding-bottom: 1.8rem;    
    
 }
 
@@ -143,14 +143,16 @@ text-shadow: #000 2px 2px 2px;
 .nav-titulos {
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
-    margin-right: 6rem;
+    margin-right: 6rem;     
 
 }
 
 
 .navbar ul li a {
     text-decoration: none;
-    color: white !important
+    color: white !important;
+   
+    
 }
 
 
@@ -664,11 +666,6 @@ section.contenedor-blog {
 
 @media screen and (min-width: 480px) 
 {
-    .nav-background {
-        height: 18rem;        
-          
-    }
-
     h1 {
         line-height: 3rem;
         padding: 1rem;
