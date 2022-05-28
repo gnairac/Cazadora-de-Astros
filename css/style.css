@@ -135,10 +135,15 @@ text-shadow: #000 2px 2px 2px;
     background: #153f59;
     margin-top: 0;
     padding-top: 2rem;
-    padding-bottom: 1.8rem;    
-   
+    padding-bottom: 1.8rem;   
+       
 }
 
+.icon-color {
+   color: white;
+   
+   
+}
 
 .nav-titulos {
     font-family: 'Roboto', sans-serif;
