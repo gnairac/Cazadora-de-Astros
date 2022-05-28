@@ -459,6 +459,7 @@ h3 {
     padding: 1.3rem;
     margin: 2.5rem;
     margin-top: 1.2rem;
+    margin-bottom: 3rem;
     border-radius: 1rem;
 
 }
@@ -508,7 +509,8 @@ h3 {
     border-radius: 1rem;
     padding: 1.3rem;
     margin: 2rem;
-
+    margin-bottom: 3rem;
+    
 }
 
 
@@ -562,8 +564,9 @@ section.contenedor-blog {
     padding: 0.5rem;
     margin: 2rem;
     margin-top: 1.2rem;
+    margin-bottom: 3rem;
     border-radius: 1rem;
-    height: 100 vh;
+   
 
 }
 
