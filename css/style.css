@@ -221,7 +221,7 @@ h2 {
     background-color: whitesmoke;
     padding: 1rem;
     margin-top: 1.5rem;
-    line-height: 2rem;
+    line-height: 2.5rem;
 
 }
 
@@ -240,19 +240,19 @@ h2 {
     grid-template-areas: "newsletter boton-uno";
     justify-content: space-around;
     align-items: center;
-    row-gap: 0.3rem;
+    row-gap: 0.5rem;
 
 }
 
 
 .newsletter {
     grid-area: newsletter;
-    line-height: 1rem;
+    line-height: 1.3rem;
     font-family: 'Roboto', sans-serif;
     font-size: 0.75rem;
     text-align: center;
     color: white;
-    padding: 15px 13px;
+    padding: 16px 13px;
 
 }
 
