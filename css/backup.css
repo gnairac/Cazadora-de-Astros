@@ -140,9 +140,8 @@ text-shadow: #000 2px 2px 2px;
 }
 
 .icon-color {
-   color: white;
-   
-   
+   color: white;  
+
 }
 
 .nav-titulos {
@@ -189,8 +188,7 @@ nav ul li a:hover {
 
 
 
-.dropdown-color {
-   
+.dropdown-color {   
     min-width: auto;
     font-family: 'Roboto', sans-serif;
     font-size: smaller;
@@ -573,7 +571,6 @@ section.contenedor-blog {
     margin-top: 1.2rem;
     margin-bottom: 3rem;
     border-radius: 1rem;
-   
 
 }
 
@@ -667,7 +664,7 @@ section.contenedor-blog {
 }
 
 
-/*Responsive dispositivo 480px ps*/
+/*Responsive dispositivo 480px*/
 
 @media screen and (min-width: 480px) 
 {
@@ -755,7 +752,7 @@ section.contenedor-blog {
 
 }
 
-/*Responsive dispositivo 576px ps*/
+/*Responsive dispositivo 576px*/
 
 @media screen and (min-width: 576px) 
 {

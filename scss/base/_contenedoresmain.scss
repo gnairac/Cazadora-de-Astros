@@ -1,0 +1,138 @@
+.contenedor-sobremi {
+    background-color: $color-secundario;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "parrafo-uno";
+    justify-content: center;
+    align-items: center;
+    padding: 1.3rem;
+    margin: 2rem;
+    margin-top: 1.2rem;
+    border-radius: 1rem;
+
+    .box-foto-perfil {
+        h3 {}
+
+        .foto-perfil {
+            display: none;
+
+        }
+    }
+}
+
+
+.contenedor-articulo {
+    background-color: $color-secundario;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "parrafo-dos";
+    justify-content: center;
+    align-items: center;
+    padding: 1.3rem;
+    margin: 2.5rem;
+    margin-top: 1.2rem;
+    margin-bottom: 3rem;
+    border-radius: 1rem;
+
+    h3 {}
+
+    .parrafo-dos {}
+
+    .parrafos-identados {}
+}
+
+.contenedor-la-cazadora-de-astros {
+    background-color: $color-secundario;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "parrafo-uno";
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 1.3rem;
+    margin: 2rem;
+    margin-bottom: 3rem;
+
+    h3 {}
+
+    .box-foto-cazadora {
+        .foto-cazadora {
+            display: none;
+        }
+    }
+}
+
+.contenedor-conjuncion {
+    .box-conjuncion {
+        .jupiter {
+            display: none;
+        }
+
+        .neptuno {
+            display: none;
+        }
+    }
+}
+
+.contenedor-blog {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "parrafo-dos";
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 2rem;
+    margin-top: 1.2rem;
+    margin-bottom: 3rem;
+    border-radius: 1rem;
+
+    h3 {
+        p.parrafo-blog {
+            .parrafos-identados {}
+        }
+    }
+}
+
+.contenedor-calculo-carta {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-areas: "pasos-calculo-carta";
+    justify-content: center;
+
+    .pasos-calculo-carta {
+        grid-area: pasos-calculo-carta;
+        display: flex;
+        justify-content: center;
+        max-width: 18.5rem;
+        max-height: 27rem;
+        list-style-position: inside;
+        color: white;
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+        line-height: 2rem;
+        padding: 3rem;
+        padding-left: 1rem;
+        border-radius: 1rem;
+        background-image: url(https://images.pexels.com/photos/207529/pexels-photo-207529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        background-repeat: no-repeat;
+        opacity: 1;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+    }
+}
+
+.contenedor-video {
+    .video-astro {
+        grid-area: video-astro;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45%;
+        margin: auto;
+    }
+}

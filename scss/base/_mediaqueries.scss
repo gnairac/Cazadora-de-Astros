@@ -1,0 +1,375 @@
+//Responsive dispositivo 480px
+
+@media screen and (min-width: 480px) {
+
+    h1 {
+        line-height: 3rem;
+        padding: 1rem;
+        margin-top: 0%;
+    }
+
+    .suscripcion {
+        height: 4.5rem;
+
+        .boton-uno {
+            padding: 10px;
+            max-width: max-content;
+        }
+    }
+
+    .contenedor-hero {
+
+        .hero {
+
+            .box {
+
+                .propuesta {
+                    line-height: 1rem;
+                    padding-bottom: 1rem;
+                }
+            }
+        }
+    }
+
+    .contenedor-calculo-carta {
+        .pasos-calculo-carta {
+            max-height: 20rem;
+            max-width: 30rem;
+
+        }
+
+    }
+
+    .contenedor-video {
+        .video-astro {
+            width: 100%;
+            margin-left: 0;
+        }
+
+    }
+
+    .contenedor-conjuncion {
+        padding: 3rem;
+        height: min-content;
+
+        .box-conjuncion {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: "jupiter neptuno"
+                "jupiter neptuno";
+
+            .planeta-jupiter {
+                display: flex;
+                grid-area: jupiter;
+                justify-content: right;
+                animation: conjuncion 5s alternate;
+                animation-iteration-count: 8;
+
+                .jupiter {
+                    display: block;
+                    width: 50%;
+                }
+            }
+
+            .planeta-neptuno {
+                display: flex;
+                grid-area: neptuno;
+                justify-content: flex-start;
+
+                .neptuno {
+                    display: block;
+                    width: 50%;
+                }
+
+                @keyframes conjuncion {
+                    0% {
+                        transform: translate(0);
+                    }
+
+                    100% {
+                        transform: translate(100px);
+                    }
+
+                }
+
+            }
+        }
+
+
+    }
+
+
+    //Responsive dispositivo 576px
+
+    @media screen and (min-width: 576px) {
+        .nav-background {
+            height: 6rem;
+        }
+    }
+
+    //Responsive dispositivo Tablet 768px para tabletas de 10 pulgadas
+
+    @media screen and (min-width: 768px) {
+        .navbar-nav {
+            .nav-link {
+                font-size: 1rem;
+            }
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            letter-spacing: 6px;
+            line-height: 3rem;
+        }
+
+        .titulos-secciones {
+            font-size: 1.6rem;
+            padding: 0.8rem;
+        }
+
+        h2.bajada {
+            font-size: 1.6rem;
+            padding: 0.8rem;
+        }
+
+        .contenedor-subtitulo {
+            h2 {
+                font-size: 1.6rem;
+                padding: 0.8rem;
+
+            }
+
+        }
+
+        .contenedor-hero {
+
+            .hero {
+
+                .box {
+
+                    .bajada {
+                        font-size: 2rem;
+                        padding: 1.3rem;
+                    }
+                }
+            }
+        }
+
+        h3 {
+            line-height: 2rem;
+            margin-top: 1rem;
+            padding: 1.2rem;
+        }
+
+        .contenedor-sobremi {
+            display: grid;
+            grid-template-columns: 1fr 2.2fr;
+            grid-template-rows: 1fr;
+            grid-template-areas: "foto-perfil parrafo-uno";
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 3px;
+            margin-top: 2rem;
+
+            .box-foto-perfil {
+                .foto-perfil {
+                    grid-area: foto-perfil;
+                    display: flex;
+                    justify-items: center;
+                    align-items: center;
+                    align-self: center;
+                    width: 60%;
+                    height: auto;
+                    position: relative;
+                    top: 50%;
+                    left: 20%;
+                    border-radius: 50%;
+                }
+            }
+        }
+
+        .contenedor-la-cazadora-de-astros {
+            grid-template-columns: 1fr 2.2fr;
+            grid-template-rows: 1fr;
+            grid-template-areas: "foto-cazadora parrafo-cazadora-de-astros";
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 3px;
+            margin-top: 2rem;
+
+            .box-foto-cazadora {
+                .foto-cazadora {
+                    grid-area: foto-cazadora;
+                    display: flex;
+                    justify-items: center;
+                    align-items: center;
+                    align-self: center;
+                    width: 50%;
+                    height: auto;
+                    position: relative;
+                    left: 23%;
+                }
+            }
+
+        }
+
+        .contenedor-blog {
+            margin-top: 2rem;
+        }
+
+
+    }
+
+
+    //Responsive dispositivo Desktop 1200px para pantallas panoramicas
+
+    @media screen and (min-width: 1200px) {
+        h1 {
+            font-size: 2.8rem;
+            line-height: 6rem;
+            word-spacing: 7px;
+            letter-spacing: 8px;
+            padding: 5px;
+        }
+
+        .titulos-secciones {
+            font-size: 1.9rem;
+        }
+
+        h2.bajada {
+            font-size: 1.9rem;
+        }
+
+        .contenedor-subtitulo {
+            h2 {
+                font-size: 1.9rem;
+            }
+        }
+
+        .contenedor-hero {
+            height: 15rem;
+
+            .hero {
+
+                .box {
+
+                    .bajada {
+                        font-size: 2rem;
+                        line-height: 1rem;
+                    }
+
+                    .propuesta {
+                        font-size: 1.2rem;
+                        letter-spacing: 4px;
+                    }
+                }
+            }
+        }
+
+        h3 {
+            font-size: 1.6rem;
+            padding: 1.5rem;
+
+        }
+
+        .navbar-nav {
+            .nav-link {
+                font-size: 1.2rem;
+            }
+        }
+
+        .contenedor-sobremi {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+            grid-template-areas: "foto_perfil"
+                "parrafo-uno";
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+
+            .box-foto-perfil {
+                .foto-perfil {
+                    display: block;
+                    grid-area: foto-perfil;
+                    width: 34%;
+                    align-self: center;
+                    justify-self: center;
+                    margin-left: 5.5rem;
+                }
+            }
+        }
+
+        .parrafo-uno {
+            font-size: 1rem;
+            line-height: 1.4rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            margin-bottom: 1rem;
+            overflow: hidden;
+        }
+
+        .parrafo-dos {
+            font-size: 1rem;
+            line-height: 1.4rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+
+        }
+
+        h4.newsletter {
+            font-size: 0.9rem;
+            text-align: center;
+            line-height: 1.2rem;
+            padding: 15px 0px;
+
+        }
+
+        .suscripcion {
+            .boton-uno {
+                position: relative;
+                font-size: 13px;
+                text-align: center;
+                margin-top: 0.3rem;
+                padding: 0.6rem;
+            }
+        }
+
+        .contenedor-la-cazadora-de-astros {
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+            grid-template-areas: "foto_cazadora"
+                "parrafo-cazadora-de-astros";
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+
+            .box-foto-cazadora {
+                .foto-cazadora {
+                    grid-area: foto-cazadora;
+                    display: block;
+                    width: 54%;
+                    align-self: center;
+                    justify-self: center;
+                }
+            }
+        }
+
+        .contenedor-calculo-carta {
+            .pasos-calculo-carta {
+                font-size: 17px;
+            }
+
+        }
+
+        .contenedor-blog {
+            overflow: hidden;
+
+        }
+
+    }
+}

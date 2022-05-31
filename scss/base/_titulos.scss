@@ -1,0 +1,96 @@
+h1 {
+    text-align: center;
+    color: $color-secundario;
+    font-family: 'Space and Astronomy', sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    word-spacing: 10px;
+    line-height: 2.7rem;
+    letter-spacing: 4px;
+    padding: 0.9rem;
+    margin-top: 1.2rem;
+
+}
+
+
+h1 span {
+    position: absolute;
+    right: 0;
+    width: 0;
+    height: 9 0%;
+    background-color: $color-backround;
+    border-left: 1px solid #000;
+
+}
+
+.contenedor-subtitulo {
+    grid-area: contenedor-subtitulo;
+    margin: auto;
+
+    h2 {
+        position: relative;
+        font-family: $font-principal;
+        text-align: center;
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+        word-spacing: 0.5rem;
+        background-color: $color-backround;
+        padding: 1rem;
+        margin-top: 1.5rem;
+        line-height: 2.5rem;
+
+    }
+
+}
+
+h2.bajada {
+    position: relative;
+    font-family: $font-principal;
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    word-spacing: 0.5rem;
+    background-color: $color-backround;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    line-height: 2.5rem;
+
+
+}
+
+.titulos-secciones {
+    position: relative;
+    font-family: $font-principal;
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    word-spacing: 0.5rem;
+    background-color: $color-backround;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    line-height: 2.5rem;
+
+}
+
+h3 {
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    font-size: 1.4rem;
+    word-spacing: 0.4rem;
+    letter-spacing: 0.2rem;
+    color: black;
+    line-height: 2rem;
+    padding: 1rem;
+
+}
+
+h4.newsletter {
+    grid-area: newsletter;
+    line-height: 1.3rem;
+    font-family: $font-principal;
+    font-size: 0.75rem;
+    text-align: center;
+    color: $color-secundario;
+    padding: 16px 13px;
+
+}

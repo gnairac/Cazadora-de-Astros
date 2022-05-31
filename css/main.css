@@ -1,0 +1,606 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+@import url("http://fonts.cdnfonts.com/css/space-and-astronomy");
+@import url("http://fonts.cdnfonts.com/css/planet-n");
+@import url("http://fonts.cdnfonts.com/css/insta-story");
+@import url("http://fonts.cdnfonts.com/css/insta-story-signature");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap");
+.nav-background {
+  background: #153f59;
+  margin-top: 0;
+  padding-top: 2rem;
+  padding-bottom: 1.8rem; }
+  .nav-background .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    height: max-content; }
+    .nav-background .container-fluid .icon-color {
+      color: white; }
+    .nav-background .container-fluid .nav-titulos {
+      font-family: "Roboto", sans-serif;
+      font-size: 1.2rem;
+      margin-right: 6rem; }
+    .nav-background .container-fluid ul li a {
+      text-decoration: none;
+      color: white !important; }
+      .nav-background .container-fluid ul li a:hover {
+        background-color: #153f59;
+        font-size: 1.3rem;
+        font-weight: bold; }
+        .nav-background .container-fluid ul li a:hover .navbar-nav.nav-color {
+          background-color: #153f59; }
+          .nav-background .container-fluid ul li a:hover .navbar-nav.nav-color .collapse navbar-collapse {
+            height: max-content; }
+            .nav-background .container-fluid ul li a:hover .navbar-nav.nav-color .collapse navbar-collapse .navbar-expand-md .navbar-nav .dropdown-menu {
+              position: absolute;
+              background-color: #153f59;
+              color: #153f59;
+              border-radius: 4.5px;
+              height: 3.5rem; }
+              .nav-background .container-fluid ul li a:hover .navbar-nav.nav-color .collapse navbar-collapse .navbar-expand-md .navbar-nav .dropdown-menu ul.dropdown-menu .dropdown-color {
+                color: transparent; }
+                .nav-background .container-fluid ul li a:hover .navbar-nav.nav-color .collapse navbar-collapse .navbar-expand-md .navbar-nav .dropdown-menu ul.dropdown-menu .dropdown-color .dropdown-item {
+                  min-width: auto;
+                  font-family: 'Roboto', sans-serif;
+                  font-size: smaller; }
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family: 'Space and Astronomy', sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  word-spacing: 10px;
+  line-height: 2.7rem;
+  letter-spacing: 4px;
+  padding: 0.9rem;
+  margin-top: 1.2rem; }
+
+h1 span {
+  position: absolute;
+  right: 0;
+  width: 0;
+  height: 9 0%;
+  background-color: whitesmoke;
+  border-left: 1px solid #000; }
+
+.contenedor-subtitulo {
+  grid-area: contenedor-subtitulo;
+  margin: auto; }
+  .contenedor-subtitulo h2 {
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    word-spacing: 0.5rem;
+    background-color: whitesmoke;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    line-height: 2.5rem; }
+
+h2.bajada {
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  word-spacing: 0.5rem;
+  background-color: whitesmoke;
+  padding: 1rem;
+  margin-top: 1.5rem;
+  line-height: 2.5rem; }
+
+.titulos-secciones {
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  word-spacing: 0.5rem;
+  background-color: whitesmoke;
+  padding: 1rem;
+  margin-top: 1.5rem;
+  line-height: 2.5rem; }
+
+h3 {
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+  font-size: 1.4rem;
+  word-spacing: 0.4rem;
+  letter-spacing: 0.2rem;
+  color: black;
+  line-height: 2rem;
+  padding: 1rem; }
+
+h4.newsletter {
+  grid-area: newsletter;
+  line-height: 1.3rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.75rem;
+  text-align: center;
+  color: white;
+  padding: 16px 13px; }
+
+.parrafos-identados, .parrafo-uno .parrafos-identados, .remedios-varo .parrafos-identados .parrafos-identados, .parrafo-dos .parrafos-identados, .parrafo-blog .parrafos-identados .parrafos-identados {
+  background-color: white;
+  color: #1d1e20;
+  font-family: "Roboto", sans-serif;
+  text-align: justify;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  padding: 0.5rem; }
+
+.parrafo-uno .parrafos-identados, .remedios-varo .parrafos-identados .parrafos-identados {
+  grid-area: parrafo-uno; }
+
+.parrafo-cazadora-de-astros .parrafos-identados {
+  grid-area: parrafo-uno;
+  color: #1d1e20;
+  justify-content: center;
+  font-weight: 1.4rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  text-align: justify;
+  text-justify: distribute-all-lines;
+  padding: 0.5rem;
+  overflow: scroll;
+  margin: 2.5rem; }
+
+.remedios-varo .parrafos-identados {
+  grid-area: parrafo-uno; }
+
+.parrafo-blog .parrafos-identados {
+  grid-area: parrafo-dos; }
+
+.contenedor-hero {
+  display: flex;
+  height: 14rem;
+  position: relative;
+  background-image: url(../img.html/space-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  filter: brightness(1.1); }
+  .contenedor-hero .hero {
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center; }
+    .contenedor-hero .hero .box {
+      flex-basis: 100%;
+      align-self: center; }
+      .contenedor-hero .hero .box .propuesta {
+        font-family: "Roboto", sans-serif;
+        font-weight: bolder;
+        font-size: 2.8rem;
+        text-shadow: #000 2px 2px 2px;
+        text-transform: uppercase;
+        color: #bf930d;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 1.1rem;
+        letter-spacing: 1.5px;
+        word-spacing: 5px;
+        padding-bottom: 2rem;
+        line-height: 1.7rem; }
+        .contenedor-hero .hero .box .propuesta span .bajada {
+          text-shadow: #000 2px 2px 2px; }
+
+.suscripcion {
+  height: 6.5rem;
+  background: #020024;
+  background: #020024;
+  background: linear-gradient(106deg, #020024 0%, #0d0d40 31%, #094474 47%, #046377 100%);
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  flex-direction: column;
+  grid-template-areas: "newsletter boton-uno";
+  justify-content: space-around;
+  align-items: center;
+  row-gap: 0.5rem; }
+  .suscripcion .boton-uno {
+    grid-area: boton-uno;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    text-align: center;
+    overflow: auto;
+    width: fit-content;
+    height: max-content;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 11px;
+    text-transform: uppercase;
+    background-color: #FFFF00;
+    opacity: 0.8;
+    padding: 0.6rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer; }
+    .suscripcion .boton-uno :hover {
+      color: white; }
+
+footer {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  grid-template-areas: "container-footer redes-sociales" "container-footer redes-sociales" "container-footer redes-sociales";
+  width: 100%; }
+
+footer {
+  background-color: #3c4e5f;
+  align-self: center;
+  justify-self: center; }
+  footer .container-footer {
+    grid-area: container-footer;
+    flex-wrap: wrap;
+    height: auto;
+    margin: auto; }
+    footer .container-footer .derechos-de-autor .footer {
+      display: flex;
+      color: whitesmoke;
+      justify-content: left;
+      font-size: 0.8rem;
+      letter-spacing: 1.5px;
+      padding: 0.9rem 3rem; }
+    footer .container-footer .redes-sociales {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: whitesmoke;
+      font-family: "Roboto", sans-serif;
+      font-size: 0.8rem;
+      letter-spacing: 1.5px;
+      margin-bottom: 0.8rem; }
+      footer .container-footer .redes-sociales .titulo-redes-sociales {
+        font-size: 0.7rem;
+        text-align: center;
+        color: whitesmoke; }
+      footer .container-footer .redes-sociales .instagram-icon {
+        color: white;
+        width: 2.4rem;
+        cursor: pointer;
+        float: left;
+        padding: 0;
+        margin: 0;
+        margin-top: -1rem;
+        margin-bottom: 0px; }
+      footer .container-footer .redes-sociales .facebook-icon {
+        color: white;
+        margin-bottom: 3px;
+        width: 1.8rem;
+        cursor: pointer;
+        float: left;
+        padding: 0;
+        margin: 0; }
+
+.form-estilo {
+  background-image: url(https://images.pexels.com/photos/207529/pexels-photo-207529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat: no-repeat;
+  opacity: 1;
+  max-height: 32rem;
+  max-width: 30rem;
+  border-radius: 15px;
+  margin-bottom: 3rem;
+  margin-top: 3rem; }
+
+.contenedor-sobremi {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "parrafo-uno";
+  justify-content: center;
+  align-items: center;
+  padding: 1.3rem;
+  margin: 2rem;
+  margin-top: 1.2rem;
+  border-radius: 1rem; }
+  .contenedor-sobremi .box-foto-perfil .foto-perfil {
+    display: none; }
+
+.contenedor-articulo {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "parrafo-dos";
+  justify-content: center;
+  align-items: center;
+  padding: 1.3rem;
+  margin: 2.5rem;
+  margin-top: 1.2rem;
+  margin-bottom: 3rem;
+  border-radius: 1rem; }
+
+.contenedor-la-cazadora-de-astros {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "parrafo-uno";
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  padding: 1.3rem;
+  margin: 2rem;
+  margin-bottom: 3rem; }
+  .contenedor-la-cazadora-de-astros .box-foto-cazadora .foto-cazadora {
+    display: none; }
+
+.contenedor-conjuncion .box-conjuncion .jupiter {
+  display: none; }
+
+.contenedor-conjuncion .box-conjuncion .neptuno {
+  display: none; }
+
+.contenedor-blog {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "parrafo-dos";
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 2rem;
+  margin-top: 1.2rem;
+  margin-bottom: 3rem;
+  border-radius: 1rem; }
+
+.contenedor-calculo-carta {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-areas: "pasos-calculo-carta";
+  justify-content: center; }
+  .contenedor-calculo-carta .pasos-calculo-carta {
+    grid-area: pasos-calculo-carta;
+    display: flex;
+    justify-content: center;
+    max-width: 18.5rem;
+    max-height: 27rem;
+    list-style-position: inside;
+    color: white;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2rem;
+    padding: 3rem;
+    padding-left: 1rem;
+    border-radius: 1rem;
+    background-image: url(https://images.pexels.com/photos/207529/pexels-photo-207529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    opacity: 1;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem; }
+
+.contenedor-video .video-astro {
+  grid-area: video-astro;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  margin: auto; }
+
+@media screen and (min-width: 480px) {
+  h1 {
+    line-height: 3rem;
+    padding: 1rem;
+    margin-top: 0%; }
+  .suscripcion {
+    height: 4.5rem; }
+    .suscripcion .boton-uno {
+      padding: 10px;
+      max-width: max-content; }
+  .contenedor-hero .hero .box .propuesta {
+    line-height: 1rem;
+    padding-bottom: 1rem; }
+  .contenedor-calculo-carta .pasos-calculo-carta {
+    max-height: 20rem;
+    max-width: 30rem; }
+  .contenedor-video .video-astro {
+    width: 100%;
+    margin-left: 0; }
+  .contenedor-conjuncion {
+    padding: 3rem;
+    height: min-content; }
+    .contenedor-conjuncion .box-conjuncion {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas: "jupiter neptuno" "jupiter neptuno"; }
+      .contenedor-conjuncion .box-conjuncion .planeta-jupiter {
+        display: flex;
+        grid-area: jupiter;
+        justify-content: right;
+        animation: conjuncion 5s alternate;
+        animation-iteration-count: 8; }
+        .contenedor-conjuncion .box-conjuncion .planeta-jupiter .jupiter {
+          display: block;
+          width: 50%; }
+      .contenedor-conjuncion .box-conjuncion .planeta-neptuno {
+        display: flex;
+        grid-area: neptuno;
+        justify-content: flex-start; }
+        .contenedor-conjuncion .box-conjuncion .planeta-neptuno .neptuno {
+          display: block;
+          width: 50%; }
+  @keyframes conjuncion {
+    0% {
+      transform: translate(0); }
+    100% {
+      transform: translate(100px); } } }
+
+@media screen and (min-width: 480px) and (min-width: 576px) {
+  .nav-background {
+    height: 6rem; } }
+
+@media screen and (min-width: 480px) and (min-width: 768px) {
+  .navbar-nav .nav-link {
+    font-size: 1rem; }
+  h1 {
+    font-size: 2.2rem;
+    letter-spacing: 6px;
+    line-height: 3rem; }
+  .titulos-secciones {
+    font-size: 1.6rem;
+    padding: 0.8rem; }
+  h2.bajada {
+    font-size: 1.6rem;
+    padding: 0.8rem; }
+  .contenedor-subtitulo h2 {
+    font-size: 1.6rem;
+    padding: 0.8rem; }
+  .contenedor-hero .hero .box .bajada {
+    font-size: 2rem;
+    padding: 1.3rem; }
+  h3 {
+    line-height: 2rem;
+    margin-top: 1rem;
+    padding: 1.2rem; }
+  .contenedor-sobremi {
+    display: grid;
+    grid-template-columns: 1fr 2.2fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "foto-perfil parrafo-uno";
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px;
+    margin-top: 2rem; }
+    .contenedor-sobremi .box-foto-perfil .foto-perfil {
+      grid-area: foto-perfil;
+      display: flex;
+      justify-items: center;
+      align-items: center;
+      align-self: center;
+      width: 60%;
+      height: auto;
+      position: relative;
+      top: 50%;
+      left: 20%;
+      border-radius: 50%; }
+  .contenedor-la-cazadora-de-astros {
+    grid-template-columns: 1fr 2.2fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "foto-cazadora parrafo-cazadora-de-astros";
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px;
+    margin-top: 2rem; }
+    .contenedor-la-cazadora-de-astros .box-foto-cazadora .foto-cazadora {
+      grid-area: foto-cazadora;
+      display: flex;
+      justify-items: center;
+      align-items: center;
+      align-self: center;
+      width: 50%;
+      height: auto;
+      position: relative;
+      left: 23%; }
+  .contenedor-blog {
+    margin-top: 2rem; } }
+
+@media screen and (min-width: 480px) and (min-width: 1200px) {
+  h1 {
+    font-size: 2.8rem;
+    line-height: 6rem;
+    word-spacing: 7px;
+    letter-spacing: 8px;
+    padding: 5px; }
+  .titulos-secciones {
+    font-size: 1.9rem; }
+  h2.bajada {
+    font-size: 1.9rem; }
+  .contenedor-subtitulo h2 {
+    font-size: 1.9rem; }
+  .contenedor-hero {
+    height: 15rem; }
+    .contenedor-hero .hero .box .bajada {
+      font-size: 2rem;
+      line-height: 1rem; }
+    .contenedor-hero .hero .box .propuesta {
+      font-size: 1.2rem;
+      letter-spacing: 4px; }
+  h3 {
+    font-size: 1.6rem;
+    padding: 1.5rem; }
+  .navbar-nav .nav-link {
+    font-size: 1.2rem; }
+  .contenedor-sobremi {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "foto_perfil" "parrafo-uno";
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-content: center; }
+    .contenedor-sobremi .box-foto-perfil .foto-perfil {
+      display: block;
+      grid-area: foto-perfil;
+      width: 34%;
+      align-self: center;
+      justify-self: center;
+      margin-left: 5.5rem; }
+  .parrafo-uno, .remedios-varo .parrafos-identados {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    overflow: hidden; }
+  .parrafo-dos, .parrafo-blog .parrafos-identados {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    margin-left: 1rem;
+    margin-right: 1rem; }
+  h4.newsletter {
+    font-size: 0.9rem;
+    text-align: center;
+    line-height: 1.2rem;
+    padding: 15px 0px; }
+  .suscripcion .boton-uno {
+    position: relative;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 0.3rem;
+    padding: 0.6rem; }
+  .contenedor-la-cazadora-de-astros {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "foto_cazadora" "parrafo-cazadora-de-astros";
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-content: center; }
+    .contenedor-la-cazadora-de-astros .box-foto-cazadora .foto-cazadora {
+      grid-area: foto-cazadora;
+      display: block;
+      width: 54%;
+      align-self: center;
+      justify-self: center; }
+  .contenedor-calculo-carta .pasos-calculo-carta {
+    font-size: 17px; }
+  .contenedor-blog {
+    overflow: hidden; } }
+
+body {
+  background-color: whitesmoke; }
+
+header {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: "contenedor-hero" "menu-principal";
+  justify-content: center; }
+
+footer {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  grid-template-areas: "container-footer redes-sociales" "container-footer redes-sociales" "container-footer redes-sociales";
+  width: 100%; }

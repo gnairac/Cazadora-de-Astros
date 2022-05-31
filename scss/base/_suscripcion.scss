@@ -1,0 +1,41 @@
+.suscripcion {
+    height: 6.5rem;
+    background: rgb(2, 0, 36);
+    background: rgb(2, 0, 36);
+    background: linear-gradient(106deg, rgba(2, 0, 36, 1) 0%, rgba(13, 13, 64, 1) 31%, rgba(9, 68, 116, 1) 47%, rgba(4, 99, 119, 1) 100%);
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
+    grid-template-areas: "newsletter boton-uno";
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 0.5rem;
+
+    .boton-uno {
+        grid-area: boton-uno;
+        margin-top: 7px;
+        margin-bottom: 7px;
+        text-align: center;
+        overflow: auto;
+        width: fit-content;
+        height: max-content;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        font-size: 11px;
+        text-transform: uppercase;
+        background-color: #FFFF00;
+        opacity: 0.8;
+        padding: 0.6rem;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+
+        :hover {
+            color: $color-secundario;
+
+        }
+
+    }
+
+}

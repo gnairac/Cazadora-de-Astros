@@ -1,0 +1,59 @@
+.parrafos-identados {
+    background-color: $color-secundario;
+    color: #1d1e20;
+    font-family: $font-principal;
+    text-align: justify;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    padding: 0.5rem;
+
+}
+
+
+.parrafo-uno {
+    .parrafos-identados {
+        grid-area: parrafo-uno;
+        @extend .parrafos-identados;
+    }
+}
+
+
+
+
+.parrafo-dos {
+    .parrafos-identados {
+        @extend .parrafos-identados,
+    }
+}
+
+.parrafo-cazadora-de-astros {
+    .parrafos-identados {
+        grid-area: parrafo-uno;
+        color: #1d1e20;
+        justify-content: center;
+        font-weight: 1.4rem;
+        font-family: $font-principal;
+        font-size: 0.9rem;
+        line-height: 1.3rem;
+        text-align: justify;
+        text-justify: distribute-all-lines;
+        padding: 0.5rem;
+        overflow: scroll;
+        margin: 2.5rem;
+    }
+}
+
+
+.remedios-varo {
+    .parrafos-identados {
+        grid-area: parrafo-uno;
+        @extend .parrafo-uno;
+    }
+}
+
+.parrafo-blog {
+    .parrafos-identados {
+        grid-area: parrafo-dos;
+        @extend .parrafo-dos;
+    }
+}
