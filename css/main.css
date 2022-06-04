@@ -279,13 +279,13 @@ footer {
   margin-top: 3rem; }
 
 .contenedor-sobremi {
-  background-color: white;
   display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "parrafo-uno";
-  justify-content: center;
-  align-items: center;
   padding: 1.3rem;
   margin: 3rem;
   margin-top: 1.2rem;
@@ -294,13 +294,13 @@ footer {
     display: none; }
 
 .contenedor-articulo {
-  background-color: white;
   display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "parrafo-dos";
-  justify-content: center;
-  align-items: center;
   padding: 1.3rem;
   margin: 3rem;
   margin-top: 1.2rem;
@@ -308,13 +308,13 @@ footer {
   border-radius: 1rem; }
 
 .contenedor-la-cazadora-de-astros {
-  background-color: white;
   display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "parrafo-uno";
-  justify-content: center;
-  align-items: center;
   border-radius: 1rem;
   padding: 1.3rem;
   margin: 3rem;
@@ -329,13 +329,13 @@ footer {
   display: none; }
 
 .contenedor-blog {
-  background-color: white;
   display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "parrafo-dos";
-  justify-content: center;
-  align-items: center;
   padding: 0.5rem;
   margin: 3rem;
   margin-top: 1.2rem;
