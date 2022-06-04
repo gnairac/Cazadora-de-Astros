@@ -1,6 +1,5 @@
 .contenedor-sobremi {
-    @include grid (grid,center,center)
-    background-color: $color-secundario;
+    @include grid (grid, center, center) background-color: $color-secundario;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "parrafo-uno";
@@ -8,6 +7,7 @@
     margin: 3rem;
     margin-top: 1.2rem;
     border-radius: 1rem;
+
     .box-foto-perfil {
         h3 {}
 
@@ -20,8 +20,7 @@
 
 
 .contenedor-articulo {
-    @include grid (grid,center,center)
-    background-color: $color-secundario;
+    @include grid (grid, center, center) background-color: $color-secundario;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "parrafo-dos";
@@ -30,6 +29,7 @@
     margin-top: 1.2rem;
     margin-bottom: 3rem;
     border-radius: 1rem;
+
     h3 {}
 
     .parrafo-dos {}
@@ -38,8 +38,7 @@
 }
 
 .contenedor-la-cazadora-de-astros {
-    @include grid (grid,center,center)
-    background-color: $color-secundario;
+    @include grid (grid, center, center) background-color: $color-secundario;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "parrafo-uno";
@@ -70,8 +69,7 @@
 }
 
 .contenedor-blog {
-    @include grid (grid,center,center)
-    background-color: white;
+    @include grid (grid, center, center) background-color: white;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "parrafo-dos";

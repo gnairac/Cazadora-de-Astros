@@ -28,8 +28,6 @@
       background-color: #3c4e5f;
       font-size: 1.3rem;
       font-weight: bold; }
-      .nav-background ul li a:hover .navbar-nav.nav-color {
-        background-color: #3c4e5f; }
 
 h1 {
   text-align: center;
@@ -378,6 +376,8 @@ footer {
   margin-top: 2rem; }
 
 @media screen and (min-width: 480px) {
+  .nav-marca {
+    margin-left: 1rem; }
   h1 {
     line-height: 3rem;
     padding: 1rem;

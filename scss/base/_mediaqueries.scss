@@ -2,6 +2,10 @@
 
 @media screen and (min-width: 480px) {
 
+    .nav-marca {
+        margin-left: 1rem;
+    }
+
     h1 {
         line-height: 3rem;
         padding: 1rem;
@@ -56,7 +60,7 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-template-areas: "jupiter neptuno"
-                "jupiter neptuno";
+                                 "jupiter neptuno";
 
             .planeta-jupiter {
                 display: flex;
@@ -122,7 +126,7 @@
             line-height: 3rem;
             margin-bottom: -3.5rem;
             margin-top: 3.5rem;
-           
+
         }
 
         .titulos-secciones {
@@ -133,7 +137,7 @@
         h2.bajada {
             font-size: 1.6rem;
             padding: 0.8rem;
-            
+
         }
 
         .contenedor-subtitulo {
@@ -156,11 +160,11 @@
 
                     }
 
-                        .bajada {
-                            font-size: 2rem;
-                            padding: 1.3rem;
-                            
-                        }
+                    .bajada {
+                        font-size: 2rem;
+                        padding: 1.3rem;
+
+                    }
                 }
             }
         }
@@ -245,7 +249,7 @@
             letter-spacing: 8px;
             padding: 0.7rem;
             margin-bottom: -1.5rem;
-            
+
         }
 
         .titulos-secciones {
@@ -278,7 +282,7 @@
                         font-size: 1.2rem;
                         letter-spacing: 4px;
                         margin-bottom: -1rem;
-                       
+
                     }
                 }
             }
@@ -301,7 +305,7 @@
             grid-template-columns: 1fr;
             grid-template-rows: 1fr 1fr;
             grid-template-areas: "foto_perfil"
-                "parrafo-uno";
+                                 "parrafo-uno";
             overflow: hidden;
             display: flex;
             justify-content: center;
@@ -358,7 +362,7 @@
             grid-template-columns: 1fr;
             grid-template-rows: 1fr 1fr;
             grid-template-areas: "foto_cazadora"
-                "parrafo-cazadora-de-astros";
+                                 "parrafo-cazadora-de-astros";
             overflow: hidden;
             display: flex;
             justify-content: center;
