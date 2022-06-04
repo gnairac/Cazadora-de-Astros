@@ -165,7 +165,7 @@ h4.newsletter {
         font-family: "Roboto", sans-serif;
         font-weight: bolder;
         font-size: 2.8rem;
-        text-shadow: #000 3px 3px 2px;
+        text-shadow: #000 3px 3px 3px;
         text-transform: uppercase;
         color: #bf930d;
         text-align: center;
@@ -581,9 +581,10 @@ footer {
     .contenedor-la-cazadora-de-astros .box-foto-cazadora .foto-cazadora {
       grid-area: foto-cazadora;
       display: block;
-      width: 54%;
+      width: 85%;
       align-self: center;
-      justify-self: center; }
+      justify-self: center;
+      margin-left: -2.7rem; }
   .contenedor-calculo-carta .pasos-calculo-carta {
     font-size: 17px; }
   .contenedor-blog {
