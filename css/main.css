@@ -5,7 +5,7 @@
 @import url("http://fonts.cdnfonts.com/css/insta-story-signature");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap");
 .nav-background {
-  background: #3c4e5f;
+  background-color: #3c4e5f;
   margin-top: 0;
   padding-top: 2rem;
   padding-bottom: 1.8rem; }
@@ -15,21 +15,21 @@
     align-items: flex-end;
     width: 100%;
     height: max-content; }
-    .nav-background .container-fluid .icon-color {
-      color: white; }
-    .nav-background .container-fluid .nav-titulos {
-      font-family: "Roboto", sans-serif;
-      font-size: 1.2rem;
-      margin-right: 6rem; }
-    .nav-background .container-fluid ul li a {
-      text-decoration: none;
-      color: white !important; }
-      .nav-background .container-fluid ul li a:hover {
-        background-color: #3c4e5f;
-        font-size: 1.3rem;
-        font-weight: bold; }
-        .nav-background .container-fluid ul li a:hover .navbar-nav.nav-color {
-          background-color: #3c4e5f; }
+  .nav-background .icon-color {
+    color: white; }
+  .nav-background .nav-titulos {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    margin-right: 1rem; }
+  .nav-background ul li a {
+    text-decoration: none;
+    color: white !important; }
+    .nav-background ul li a:hover {
+      background-color: #3c4e5f;
+      font-size: 1.3rem;
+      font-weight: bold; }
+      .nav-background ul li a:hover .navbar-nav.nav-color {
+        background-color: #3c4e5f; }
 
 h1 {
   text-align: center;
@@ -39,10 +39,11 @@ h1 {
   font-weight: bold;
   text-transform: uppercase;
   word-spacing: 10px;
-  text-shadow: 0px 0px 15px #5A5C1C;
+  background-color: darkgoldenrod;
+  opacity: 0.9;
   line-height: 2.7rem;
   letter-spacing: 4px;
-  padding: 0.9rem;
+  padding: 1rem;
   margin-top: 1.2rem; }
 
 h1 span {
@@ -146,10 +147,10 @@ h4.newsletter {
   display: flex;
   height: 20rem;
   position: relative;
-  background-image: url(https://wallpaperaccess.com/full/1113864.jpg);
+  background-image: url(https://mymodernmet.com/wp/wp-content/uploads/2021/04/constellations-thumb-thumbnail-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top;
   opacity: 1; }
   .contenedor-hero .hero {
     margin: 0 auto;
@@ -173,6 +174,7 @@ h4.newsletter {
         letter-spacing: 1.5px;
         word-spacing: 5px;
         padding-bottom: 2rem;
+        padding-top: 0.5rem;
         line-height: 1.7rem; }
         .contenedor-hero .hero .box .propuesta span .bajada {
           text-shadow: #000 2px 2px 2px; }
@@ -434,7 +436,8 @@ footer {
     font-size: 2.2rem;
     letter-spacing: 6px;
     line-height: 3rem;
-    margin-bottom: -3rem; }
+    margin-bottom: -3.5rem;
+    margin-top: 3.5rem; }
   .titulos-secciones {
     font-size: 1.6rem;
     padding: 0.8rem; }
@@ -445,7 +448,7 @@ footer {
     font-size: 1.6rem;
     padding: 0.8rem; }
   .contenedor-hero .hero .box .propuesta {
-    padding-top: 0;
+    padding-top: 1.5rem;
     margin-bottom: 1rem; }
   .contenedor-hero .hero .box .bajada {
     font-size: 2rem;
@@ -506,8 +509,8 @@ footer {
     line-height: 6rem;
     word-spacing: 7px;
     letter-spacing: 8px;
-    padding: 5px;
-    margin-bottom: -2rem; }
+    padding: 0.7rem;
+    margin-bottom: -1.5rem; }
   .titulos-secciones {
     font-size: 1.9rem; }
   h2.bajada {

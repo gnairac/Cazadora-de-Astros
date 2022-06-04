@@ -2,12 +2,11 @@
     display: flex;
     height: 20rem;
     position: relative;
-    //background-image: url(../img.html/space-background.jpg);
-    background-image: url(https://wallpaperaccess.com/full/1113864.jpg);
+    background-image: url(https://mymodernmet.com/wp/wp-content/uploads/2021/04/constellations-thumb-thumbnail-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-   background-position: center;
-   opacity: 1;
+    background-position: top;
+    opacity: 1;
     
 
     .hero {
@@ -34,6 +33,7 @@
                 letter-spacing: 1.5px;
                 word-spacing: 5px;
                 padding-bottom: 2rem;
+                padding-top: 0.5rem;
                 line-height: 1.7rem;
 
                 span .bajada {

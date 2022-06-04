@@ -1,5 +1,5 @@
 .nav-background {
-    background: #3c4e5f;
+    background-color:#3c4e5f;
     margin-top: 0;
     padding-top: 2rem;
     padding-bottom: 1.8rem;
@@ -11,37 +11,44 @@
         width: 100%;
         height: max-content;
 
-        .icon-color {
-            color: white;
         }
 
-        .nav-titulos {
-            font-family: $font-principal;
-            font-size: 1.2rem;
-            margin-right: 6rem;
-        }
-
-        ul li a {
-            text-decoration: none;
-            color: white !important;
-
-            &:hover {
-                background-color: #3c4e5f;
-                font-size: 1.3rem;
-                font-weight: bold;
-
-                .navbar-nav.nav-color {
-                    background-color: #3c4e5f;
-
-                   
-                            }
-                        }
-
-
-                    }
-                }
-
-
+            .icon-color {
+                color: white;
             }
+
+            .nav-titulos {
+                font-family: $font-principal;
+                font-size: 1.2rem;
+                margin-right: 1rem;
+                
+            }
+
+            
+            ul li a {
+                text-decoration: none;
+                color: white !important;
+                
+
+                &:hover {
+                    background-color: #3c4e5f;
+                    font-size: 1.3rem;
+                    font-weight: bold;
+
+                    .navbar-nav.nav-color {
+                        background-color: #3c4e5f;
+
+                       
+
+                    
+                                }
+                            }
+
+
+                        }
+                    }
+
+
+             
 
     
