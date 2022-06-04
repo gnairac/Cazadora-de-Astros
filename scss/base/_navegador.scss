@@ -1,5 +1,5 @@
 .nav-background {
-    background: $color-nav;
+    background: #3c4e5f;
     margin-top: 0;
     padding-top: 2rem;
     padding-bottom: 1.8rem;
@@ -26,38 +26,14 @@
             color: white !important;
 
             &:hover {
-                background-color: $color-nav;
+                background-color: #3c4e5f;
                 font-size: 1.3rem;
                 font-weight: bold;
 
                 .navbar-nav.nav-color {
-                    background-color: $color-nav;
+                    background-color: #3c4e5f;
 
-                    .collapse navbar-collapse {
-                        height: max-content;
-
-                        .navbar-expand-md .navbar-nav .dropdown-menu {
-                            position: absolute;
-                            background-color: $color-nav;
-                            color: $color-nav;
-                            border-radius: 4.5px;
-                            height: 3.5rem;
-                            ul.dropdown-menu {
-                                .dropdown-color {
-                                    color:transparent;
-    
-                                    .dropdown-item {
-                                        min-width: auto;
-                                        font-family: 'Roboto', sans-serif;
-                                        font-size: smaller;
-                                    }
-    
-                        
-                        }
-                        
-                        
-
-
+                   
                             }
                         }
 
@@ -68,12 +44,4 @@
 
             }
 
-        }
-
-
-
-    }
-
-
-
-}
+    

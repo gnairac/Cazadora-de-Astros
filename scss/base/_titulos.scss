@@ -1,10 +1,13 @@
 h1 {
     text-align: center;
-    color: $color-secundario;
+    color: white ;
     font-family: 'Space and Astronomy', sans-serif;
     font-size: 2rem;
+    font-weight: bold;
     text-transform: uppercase;
     word-spacing: 10px;
+    text-shadow: 0px 0px 15px #5A5C1C ;
+  
     line-height: 2.7rem;
     letter-spacing: 4px;
     padding: 0.9rem;
@@ -19,7 +22,7 @@ h1 span {
     width: 0;
     height: 9 0%;
     background-color: $color-backround;
-    border-left: 1px solid #000;
+   
 
 }
 
@@ -65,7 +68,7 @@ h2.bajada {
     font-size: 1.5rem;
     letter-spacing: 2px;
     word-spacing: 0.5rem;
-    background-color: $color-backround;
+    background-color:$color-backround;
     padding: 1rem;
     margin-top: 1.5rem;
     line-height: 2.5rem;

@@ -1,12 +1,14 @@
 .contenedor-hero {
     display: flex;
-    height: 14rem;
+    height: 20rem;
     position: relative;
-    background-image: url(../img.html/space-background.jpg);
+    //background-image: url(../img.html/space-background.jpg);
+    background-image: url(https://wallpaperaccess.com/full/1113864.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
-    filter: brightness(1.1);
+   background-position: center;
+   opacity: 1;
+    
 
     .hero {
         margin: 0 auto;
@@ -23,7 +25,7 @@
                 font-family: $font-principal;
                 font-weight: bolder;
                 font-size: 2.8rem;
-                text-shadow: #000 2px 2px 2px;
+                text-shadow: #000 3px 3px 2px;
                 text-transform: uppercase;
                 color: #bf930d;
                 text-align: center;
