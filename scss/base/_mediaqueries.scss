@@ -60,7 +60,7 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-template-areas: "jupiter neptuno"
-                                 "jupiter neptuno";
+                "jupiter neptuno";
 
             .planeta-jupiter {
                 display: flex;
@@ -305,7 +305,7 @@
             grid-template-columns: 1fr;
             grid-template-rows: 1fr 1fr;
             grid-template-areas: "foto_perfil"
-                                 "parrafo-uno";
+                "parrafo-uno";
             overflow: hidden;
             display: flex;
             justify-content: center;
@@ -393,4 +393,39 @@
         }
 
     }
+
+    footer {
+        background-color: #3c4e5f;
+        align-self: center;
+        justify-self: center;
+
+        .container-footer {
+            grid-area: container-footer;
+            flex-wrap: wrap;
+            height: auto;
+            margin: auto;
+
+            .derechos-de-autor {
+                .footer {
+                    font-size: 0.9rem;
+                    
+                }
+            }
+
+            .redes-sociales {
+
+                .titulo-redes-sociales {
+                    font-size: .8rem;
+
+                }
+
+                .instagram-icon {}
+
+            }
+
+            .facebook-icon {}
+        }
+
+    }
+
 }
