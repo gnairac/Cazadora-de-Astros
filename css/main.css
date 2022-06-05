@@ -569,9 +569,9 @@ footer {
     margin-left: 1rem;
     margin-right: 1rem; }
   h4.newsletter {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     text-align: center;
-    line-height: 1.2rem;
+    line-height: 1.1rem;
     padding: 15px 0px; }
   .suscripcion .boton-uno {
     position: relative;
@@ -612,7 +612,7 @@ footer {
       footer .container-footer .derechos-de-autor .footer {
         font-size: 0.9rem; }
       footer .container-footer .redes-sociales .titulo-redes-sociales {
-        font-size: .8rem; } }
+        font-size: 0.8rem; } }
 
 body {
   background-color: whitesmoke; }
