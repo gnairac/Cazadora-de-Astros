@@ -1,4 +1,3 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
 @import url("http://fonts.cdnfonts.com/css/space-and-astronomy");
 @import url("http://fonts.cdnfonts.com/css/planet-n");
 @import url("http://fonts.cdnfonts.com/css/insta-story");
@@ -215,7 +214,9 @@ footer {
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr;
-  grid-template-areas: "container-footer redes-sociales" "container-footer redes-sociales" "container-footer redes-sociales";
+  grid-template-areas: "container-footer redes-sociales"
+ "container-footer redes-sociales"
+ "container-footer redes-sociales";
   width: 100%; }
 
 footer {
@@ -406,7 +407,8 @@ footer {
     .contenedor-conjuncion .box-conjuncion {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      grid-template-areas: "jupiter neptuno" "jupiter neptuno"; }
+      grid-template-areas: "jupiter neptuno"
+ "jupiter neptuno"; }
       .contenedor-conjuncion .box-conjuncion .planeta-jupiter {
         display: flex;
         grid-area: jupiter;
@@ -544,7 +546,8 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-template-areas: "foto_perfil" "parrafo-uno";
+    grid-template-areas: "foto_perfil"
+ "parrafo-uno";
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -582,7 +585,8 @@ footer {
   .contenedor-la-cazadora-de-astros {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-template-areas: "foto_cazadora" "parrafo-cazadora-de-astros";
+    grid-template-areas: "foto_cazadora"
+ "parrafo-cazadora-de-astros";
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -620,12 +624,15 @@ body {
 header {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-areas: "contenedor-hero" "menu-principal";
+  grid-template-areas: "contenedor-hero"
+ "menu-principal";
   justify-content: center; }
 
 footer {
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr;
-  grid-template-areas: "container-footer redes-sociales" "container-footer redes-sociales" "container-footer redes-sociales";
+  grid-template-areas: "container-footer redes-sociales"
+ "container-footer redes-sociales"
+ "container-footer redes-sociales";
   width: 100%; }
