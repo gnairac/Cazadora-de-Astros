@@ -202,7 +202,7 @@ h4.newsletter {
     font-weight: bolder;
     font-size: 11px;
     text-transform: uppercase;
-    background-color: #FFFF00;
+    background-color: #ffc107;
     opacity: 0.8;
     padding: 0.6rem;
     border-radius: 5px;
@@ -273,7 +273,8 @@ footer {
 .form-estilo {
   background-image: url(https://images.pexels.com/photos/207529/pexels-photo-207529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-repeat: no-repeat;
-  opacity: 1;
+  background-position: top;
+  opacity: 0.97;
   max-height: 32rem;
   max-width: 30rem;
   border-radius: 15px;
@@ -365,7 +366,8 @@ footer {
     border-radius: 1rem;
     background-image: url(https://images.pexels.com/photos/207529/pexels-photo-207529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-repeat: no-repeat;
-    opacity: 1;
+    background-position: top;
+    opacity: 0.97;
     margin-top: 1.5rem;
     margin-bottom: 1rem; }
 
@@ -503,7 +505,9 @@ footer {
       height: auto;
       position: relative;
       left: 23%;
-      box-shadow: 0 0 15px black; }
+      box-shadow: 0 0 15px black;
+      opacity: 0.9;
+      border-radius: 5px; }
   .contenedor-blog {
     margin-top: 2rem; } }
 
@@ -585,10 +589,10 @@ footer {
     .contenedor-la-cazadora-de-astros .box-foto-cazadora .foto-cazadora {
       grid-area: foto-cazadora;
       display: block;
-      width: 85%;
+      width: 100%;
       align-self: center;
       justify-self: center;
-      margin-left: -2.7rem; }
+      margin-left: -3.8rem; }
   .contenedor-calculo-carta .pasos-calculo-carta {
     font-size: 17px; }
   .contenedor-blog {

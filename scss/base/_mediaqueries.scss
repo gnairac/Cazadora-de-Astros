@@ -226,6 +226,8 @@
                     position: relative;
                     left: 23%;
                     box-shadow: 0 0 15px black;
+                    opacity: 0.9;
+                    border-radius: 5px;
                 }
             }
 
@@ -372,10 +374,11 @@
                 .foto-cazadora {
                     grid-area: foto-cazadora;
                     display: block;
-                    width: 85%;
+                    width: 100%;
                     align-self: center;
                     justify-self: center;
-                    margin-left: -2.7rem;
+                    margin-left: -3.8rem;
+            
                 }
             }
         }
